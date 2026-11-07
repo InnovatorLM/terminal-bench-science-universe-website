@@ -1,0 +1,3095 @@
+{
+  "schema_version": 1,
+  "universe": "terminal-bench-science-20authors-20261107-r2",
+  "timezone": "Asia/Shanghai",
+  "report_channel": "website",
+  "observed_at": 1794042000.097468,
+  "generated_at": 1794042002.270214,
+  "next_report_at": 1794043800,
+  "report_target_authors": 20,
+  "authors": [
+    {
+      "role": "author-01",
+      "task": "fermi-lat-sed",
+      "title": "费米望远镜能谱形状分析",
+      "summary": "结合分能段光子流量和未检出上限，研究伽马射线源的能谱形状。",
+      "proposal_summary": "结合分能段光子流量和未检出上限，研究伽马射线源的能谱形状。",
+      "summary_source": "依据选题标识生成的安全中文概括",
+      "acceptance_followup": {
+        "accepted_versions": [],
+        "current_ideas": [
+          {
+            "idea_id": "fermi-lat-band-sed",
+            "title": "费米望远镜分能段能谱",
+            "summary": "探索分能段观测能谱与统计分析方法。",
+            "state": "session_paused",
+            "last_at": 1794040734.524
+          }
+        ]
+      },
+      "latest_observed_action": "提交或检查平台自测",
+      "activity": {
+        "code": "session_ended",
+        "label": "会话已结束",
+        "resources": {
+          "cpu_percent": 0.0,
+          "rss_bytes": 0,
+          "cpu_seconds": null,
+          "process_count": 0,
+          "descendant_count": null,
+          "processes": null,
+          "rss_mb": null,
+          "cpu_delta_seconds": null,
+          "cpu_active_processes": null,
+          "sample_seconds": 0.202,
+          "stable_process_count": 0,
+          "cpu_seconds_delta": 0,
+          "sleep_processes": 0,
+          "non_wait_processes": 0,
+          "read_bytes_delta": null,
+          "write_bytes_delta": null
+        }
+      },
+      "reviews": [
+        {
+          "role": "author-01",
+          "author_role": "author-01",
+          "task": "fermi-lat-sed",
+          "commit": "91cba8edd33364e2455eff5e4b4151cad352c4fb",
+          "state": "assigned",
+          "review_state": "unknown",
+          "stage": "current_version_registration",
+          "started": false,
+          "accepted": false,
+          "reviewer_active": false,
+          "completed_jobs": null,
+          "total_jobs": null,
+          "valid_trials": 0,
+          "selected_job_ids": []
+        }
+      ],
+      "runtime": "正常等待评审",
+      "scheduler_state": "blocked",
+      "stage_label": "平台自测",
+      "workflow_phase": "自测通过，评审容量排队",
+      "stage": 3,
+      "wait_minutes": 0,
+      "accepted_versions": 0,
+      "started_versions": 0,
+      "recent_tool_results": 50,
+      "model_errors": 1,
+      "latest_action_exit_code": 0,
+      "process_live": false,
+      "expected_review_wait": true,
+      "maintenance_hold": null,
+      "session_started": null,
+      "model_activity_observed": null,
+      "latest_action_at": 1794040523.942,
+      "last_activity": 1794040734.524,
+      "phase_started_at": null,
+      "runtime_reason": "当前处于评审流程等待，后续以正式裁决为准。",
+      "long_compute_observation": null,
+      "repeated_wait_observation": null,
+      "blocker": null,
+      "review_blocked": false,
+      "review_blocker": null,
+      "selftest": {
+        "status": "selftest_passed",
+        "stage": "unknown",
+        "failure_owner": "unknown"
+      },
+      "feedback": {
+        "state": "waiting_platform",
+        "stage": "evaluator_capacity",
+        "scope": "current",
+        "updated_at": 1794041998.216179,
+        "reason": "正在等待平台执行或评测证据。",
+        "author_must_pause": true
+      },
+      "review_queue_wait": {
+        "elapsed_seconds": 1477
+      },
+      "next_step": "继续推进当前选题，并依据自测和正式评审回执更新状态。"
+    },
+    {
+      "role": "author-02",
+      "task": "tidal-constituent-recovery",
+      "title": "潮位站分潮恢复",
+      "summary": "从潮位观测中恢复分潮成分并验证参考计算。",
+      "proposal_summary": "从潮位观测中恢复分潮成分并验证参考计算。",
+      "summary_source": "依据选题标识生成的安全中文概括",
+      "acceptance_followup": {
+        "accepted_versions": [
+          {
+            "task": "eeg-erp-recovery",
+            "commit": "e45253be660d9b43620f88727f54cab28231d052",
+            "published": true,
+            "comment_id": 182,
+            "published_at": 1794032013.0
+          }
+        ],
+        "current_ideas": [
+          {
+            "idea_id": "tide-constituent-recovery-01",
+            "title": "tide-constituent-recovery-01",
+            "summary": "来源选题标识，尚未生成中文思路概括。",
+            "state": "session_paused",
+            "last_at": 1794041440.359
+          }
+        ]
+      },
+      "latest_observed_action": "提交或检查平台自测",
+      "activity": {
+        "code": "session_ended",
+        "label": "会话已结束",
+        "resources": {
+          "cpu_percent": 0.0,
+          "rss_bytes": 0,
+          "cpu_seconds": null,
+          "process_count": 0,
+          "descendant_count": null,
+          "processes": null,
+          "rss_mb": null,
+          "cpu_delta_seconds": null,
+          "cpu_active_processes": null,
+          "sample_seconds": 0.202,
+          "stable_process_count": 0,
+          "cpu_seconds_delta": 0,
+          "sleep_processes": 0,
+          "non_wait_processes": 0,
+          "read_bytes_delta": null,
+          "write_bytes_delta": null
+        }
+      },
+      "reviews": [
+        {
+          "role": "author-02",
+          "author_role": "author-02",
+          "task": "tidal-constituent-recovery",
+          "commit": "0a3825107a33e03f6eecf0ddb84adbd1016b81ee",
+          "state": "assigned",
+          "review_state": "unknown",
+          "stage": "current_version_registration",
+          "started": false,
+          "accepted": false,
+          "reviewer_active": false,
+          "completed_jobs": null,
+          "total_jobs": null,
+          "valid_trials": 0,
+          "selected_job_ids": []
+        }
+      ],
+      "runtime": "正常等待评审",
+      "scheduler_state": "blocked",
+      "stage_label": "平台自测",
+      "workflow_phase": "自测通过，评审容量排队",
+      "stage": 3,
+      "wait_minutes": 0,
+      "accepted_versions": 1,
+      "started_versions": 1,
+      "recent_tool_results": 47,
+      "model_errors": 3,
+      "latest_action_exit_code": 0,
+      "process_live": false,
+      "expected_review_wait": true,
+      "maintenance_hold": null,
+      "session_started": null,
+      "model_activity_observed": null,
+      "latest_action_at": 1794041207.868,
+      "last_activity": 1794041440.359,
+      "phase_started_at": null,
+      "runtime_reason": "当前处于评审流程等待，后续以正式裁决为准。",
+      "long_compute_observation": null,
+      "repeated_wait_observation": null,
+      "blocker": null,
+      "review_blocked": false,
+      "review_blocker": null,
+      "selftest": {
+        "status": "selftest_passed",
+        "stage": "unknown",
+        "failure_owner": "unknown"
+      },
+      "feedback": {
+        "state": "waiting_platform",
+        "stage": "evaluator_capacity",
+        "scope": "current",
+        "updated_at": 1794041998.2371223,
+        "reason": "正在等待平台执行或评测证据。",
+        "author_must_pause": true
+      },
+      "review_queue_wait": {
+        "elapsed_seconds": 794
+      },
+      "next_step": "继续推进当前选题，并依据自测和正式评审回执更新状态。"
+    },
+    {
+      "role": "author-03",
+      "task": null,
+      "title": "地震观测台网一致性",
+      "summary": "核查地震台网观测与资料的一致性。",
+      "proposal_summary": "核查地震台网观测与资料的一致性。",
+      "summary_source": "依据选题标识生成的安全中文概括",
+      "acceptance_followup": {
+        "accepted_versions": [],
+        "current_ideas": [
+          {
+            "idea_id": "scedc-network-consistency",
+            "title": "地震观测台网一致性",
+            "summary": "核查地震台网观测与资料的一致性。",
+            "state": "active",
+            "last_at": 1794038021.1787128
+          }
+        ]
+      },
+      "latest_observed_action": "计算或验证题包逻辑",
+      "activity": {
+        "code": "computing",
+        "label": "本地计算（已测得 CPU 活动）",
+        "resources": {
+          "cpu_percent": 98.8,
+          "rss_bytes": 84189184,
+          "cpu_seconds": null,
+          "process_count": 3,
+          "descendant_count": null,
+          "processes": null,
+          "rss_mb": null,
+          "cpu_delta_seconds": null,
+          "cpu_active_processes": null,
+          "sample_seconds": 0.202,
+          "stable_process_count": 3,
+          "cpu_seconds_delta": 0.2,
+          "sleep_processes": 0,
+          "non_wait_processes": 2,
+          "read_bytes_delta": null,
+          "write_bytes_delta": null
+        }
+      },
+      "reviews": [],
+      "runtime": "本地计算（已测得 CPU 活动）",
+      "scheduler_state": "running",
+      "stage_label": "探索来源",
+      "workflow_phase": "探索/候选",
+      "stage": 0,
+      "wait_minutes": 0,
+      "accepted_versions": 0,
+      "started_versions": 0,
+      "recent_tool_results": 27,
+      "model_errors": 0,
+      "latest_action_exit_code": null,
+      "process_live": true,
+      "expected_review_wait": false,
+      "maintenance_hold": null,
+      "session_started": null,
+      "model_activity_observed": null,
+      "latest_action_at": 1794041984.302,
+      "last_activity": 1794041984.302,
+      "phase_started_at": 1794041984.302,
+      "runtime_reason": "运行状态来自本次会话与进程观测。",
+      "long_compute_observation": null,
+      "repeated_wait_observation": null,
+      "blocker": null,
+      "review_blocked": false,
+      "review_blocker": null,
+      "selftest": {
+        "status": "unknown",
+        "stage": "unknown",
+        "failure_owner": "unknown"
+      },
+      "feedback": {
+        "state": "unknown",
+        "stage": "unknown",
+        "scope": "historical_or_unbound",
+        "updated_at": null,
+        "reason": "当前反馈以对应版本的正式评审记录为准。",
+        "author_must_pause": null
+      },
+      "review_queue_wait": null,
+      "next_step": "继续推进当前选题，并依据自测和正式评审回执更新状态。"
+    },
+    {
+      "role": "author-04",
+      "task": "cubic-axial-anisotropy",
+      "title": "立方材料轴向各向异性",
+      "summary": "研究材料对称性与方向相关物理响应。",
+      "proposal_summary": "研究材料对称性与方向相关物理响应。",
+      "summary_source": "依据选题标识生成的安全中文概括",
+      "acceptance_followup": {
+        "accepted_versions": [],
+        "current_ideas": [
+          {
+            "idea_id": "cubic-axial-anisotropy",
+            "title": "立方材料轴向各向异性",
+            "summary": "研究材料对称性与方向相关物理响应。",
+            "state": "active",
+            "last_at": 1794041196.599133
+          }
+        ]
+      },
+      "latest_observed_action": "修改题目、解法或验证脚本",
+      "activity": {
+        "code": "between_tools",
+        "label": "会话运行中（无未完成命令）",
+        "resources": {
+          "cpu_percent": 0.0,
+          "rss_bytes": 0,
+          "cpu_seconds": null,
+          "process_count": 0,
+          "descendant_count": null,
+          "processes": null,
+          "rss_mb": null,
+          "cpu_delta_seconds": null,
+          "cpu_active_processes": null,
+          "sample_seconds": 0.202,
+          "stable_process_count": 0,
+          "cpu_seconds_delta": 0,
+          "sleep_processes": 0,
+          "non_wait_processes": 0,
+          "read_bytes_delta": null,
+          "write_bytes_delta": null
+        }
+      },
+      "reviews": [
+        {
+          "role": "evaluator-03",
+          "author_role": "author-04",
+          "task": "cubic-axial-anisotropy",
+          "commit": "96b8d61a9a1ee64c35d3e25068c14552d1b97ce7",
+          "state": "task_fail",
+          "review_state": "waiting_author",
+          "stage": "unknown",
+          "started": true,
+          "accepted": false,
+          "reviewer_active": false,
+          "completed_jobs": null,
+          "total_jobs": null,
+          "valid_trials": 0,
+          "selected_job_ids": [
+            "9a7ebe48b012147ea76bc5cc4e71ed4f",
+            "5b034f4d99a2a703867cbca26fa5177d",
+            "667253ae0013c41ac8f709cc2624877b",
+            "006761af4c9e9d625686d13e3a98d0ee",
+            "5ce99f0d7fc71f70af9f6eef19b25dc6"
+          ]
+        }
+      ],
+      "runtime": "运行中",
+      "scheduler_state": "running",
+      "stage_label": "正式验收",
+      "workflow_phase": "评审要求作者返工；反馈已送达，读取与修复进展需核实",
+      "stage": 4,
+      "wait_minutes": 0,
+      "accepted_versions": 0,
+      "started_versions": 1,
+      "recent_tool_results": 88,
+      "model_errors": 1,
+      "latest_action_exit_code": 0,
+      "process_live": true,
+      "expected_review_wait": false,
+      "maintenance_hold": null,
+      "session_started": null,
+      "model_activity_observed": null,
+      "latest_action_at": 1794041991.515,
+      "last_activity": 1794041991.628,
+      "phase_started_at": null,
+      "runtime_reason": "运行状态来自本次会话与进程观测。",
+      "long_compute_observation": null,
+      "repeated_wait_observation": null,
+      "blocker": null,
+      "review_blocked": false,
+      "review_blocker": null,
+      "selftest": {
+        "status": "selftest_passed",
+        "stage": "unknown",
+        "failure_owner": "unknown"
+      },
+      "feedback": {
+        "state": "waiting_author",
+        "stage": "unknown",
+        "scope": "current",
+        "updated_at": 1794041184.8148673,
+        "reason": "评审要求作者继续修改，需核查阅读与修复进展。",
+        "author_must_pause": false
+      },
+      "review_queue_wait": null,
+      "next_step": "继续推进当前选题，并依据自测和正式评审回执更新状态。"
+    },
+    {
+      "role": "author-05",
+      "task": "spikein-titration-h3k9ac",
+      "title": "组蛋白修饰外源对照滴定分析",
+      "summary": "研究外源对照与滴定设计对组蛋白修饰测量的影响。",
+      "proposal_summary": "研究外源对照与滴定设计对组蛋白修饰测量的影响。",
+      "summary_source": "依据选题标识生成的安全中文概括",
+      "acceptance_followup": {
+        "accepted_versions": [],
+        "current_ideas": [
+          {
+            "idea_id": "h3k9ac-spikein-titration",
+            "title": "组蛋白修饰外源对照滴定分析",
+            "summary": "研究外源对照与滴定设计对组蛋白修饰测量的影响。",
+            "state": "session_paused",
+            "last_at": 1794040113.734
+          }
+        ]
+      },
+      "latest_observed_action": "检查题包、日志或反馈",
+      "activity": {
+        "code": "session_ended",
+        "label": "会话已结束",
+        "resources": {
+          "cpu_percent": 0.0,
+          "rss_bytes": 0,
+          "cpu_seconds": null,
+          "process_count": 0,
+          "descendant_count": null,
+          "processes": null,
+          "rss_mb": null,
+          "cpu_delta_seconds": null,
+          "cpu_active_processes": null,
+          "sample_seconds": 0.202,
+          "stable_process_count": 0,
+          "cpu_seconds_delta": 0,
+          "sleep_processes": 0,
+          "non_wait_processes": 0,
+          "read_bytes_delta": null,
+          "write_bytes_delta": null
+        }
+      },
+      "reviews": [
+        {
+          "role": "evaluator-02",
+          "author_role": "author-05",
+          "task": "spikein-titration-h3k9ac",
+          "commit": "c2148bc39710397707f8e86abe56f4c95715c442",
+          "state": "evidence_collected",
+          "review_state": "reviewing",
+          "stage": "assignment_read",
+          "started": true,
+          "accepted": false,
+          "reviewer_active": true,
+          "completed_jobs": null,
+          "total_jobs": null,
+          "valid_trials": 5,
+          "selected_job_ids": [
+            "4581ebcdd6ab26341d4abbe997af9f7f",
+            "93dff66cf3c8fddd38fdb79823075d2d",
+            "4f814e0ffcc74eb064fe402585860915",
+            "f2351ee652e64a9f0ba6a8c438067a70",
+            "88195a97781be5c6219d17b7c2aeaf01"
+          ]
+        }
+      ],
+      "runtime": "正常等待评审",
+      "scheduler_state": "blocked",
+      "stage_label": "正式验收",
+      "workflow_phase": "evaluator 正在审查轨迹、证据与题目质量",
+      "stage": 4,
+      "wait_minutes": 0,
+      "accepted_versions": 0,
+      "started_versions": 1,
+      "recent_tool_results": 54,
+      "model_errors": 2,
+      "latest_action_exit_code": 0,
+      "process_live": false,
+      "expected_review_wait": true,
+      "maintenance_hold": null,
+      "session_started": null,
+      "model_activity_observed": null,
+      "latest_action_at": 1794040113.122,
+      "last_activity": 1794040113.734,
+      "phase_started_at": null,
+      "runtime_reason": "当前处于评审流程等待，后续以正式裁决为准。",
+      "long_compute_observation": null,
+      "repeated_wait_observation": null,
+      "blocker": null,
+      "review_blocked": false,
+      "review_blocker": null,
+      "selftest": {
+        "status": "selftest_passed",
+        "stage": "unknown",
+        "failure_owner": "unknown"
+      },
+      "feedback": {
+        "state": "reviewing",
+        "stage": "assignment_read",
+        "scope": "current",
+        "updated_at": 1794041998.094297,
+        "reason": "当前反馈以对应版本的正式评审记录为准。",
+        "author_must_pause": true
+      },
+      "review_queue_wait": null,
+      "next_step": "继续推进当前选题，并依据自测和正式评审回执更新状态。"
+    },
+    {
+      "role": "author-06",
+      "task": "hbv-split-sample",
+      "title": "水文模型分样本校准与迁移",
+      "summary": "核查降雨径流模型在不同时间段的校准与泛化表现。",
+      "proposal_summary": "核查降雨径流模型在不同时间段的校准与泛化表现。",
+      "summary_source": "依据选题标识生成的安全中文概括",
+      "acceptance_followup": {
+        "accepted_versions": [],
+        "current_ideas": [
+          {
+            "idea_id": "hbv-split-sample",
+            "title": "水文模型分样本校准与迁移",
+            "summary": "核查降雨径流模型在不同时间段的校准与泛化表现。",
+            "state": "active",
+            "last_at": 1794041348.310149
+          }
+        ]
+      },
+      "latest_observed_action": "提交或检查平台自测",
+      "activity": {
+        "code": "intentional_wait",
+        "label": "主动等待（sleep 进程）",
+        "resources": {
+          "cpu_percent": 0.0,
+          "rss_bytes": 4431872,
+          "cpu_seconds": null,
+          "process_count": 2,
+          "descendant_count": null,
+          "processes": null,
+          "rss_mb": null,
+          "cpu_delta_seconds": null,
+          "cpu_active_processes": null,
+          "sample_seconds": 0.202,
+          "stable_process_count": 2,
+          "cpu_seconds_delta": 0,
+          "sleep_processes": 1,
+          "non_wait_processes": 0,
+          "read_bytes_delta": null,
+          "write_bytes_delta": null
+        }
+      },
+      "reviews": [
+        {
+          "role": "author-06",
+          "author_role": "author-06",
+          "task": "hbv-split-sample",
+          "commit": "cb57d70ef191de93ac9a5c4020e4be97c887df05",
+          "state": "assigned",
+          "review_state": "unknown",
+          "stage": "current_version_registration",
+          "started": false,
+          "accepted": false,
+          "reviewer_active": false,
+          "completed_jobs": null,
+          "total_jobs": null,
+          "valid_trials": 0,
+          "selected_job_ids": []
+        }
+      ],
+      "runtime": "主动等待（sleep 进程）",
+      "scheduler_state": "running",
+      "stage_label": "平台自测",
+      "workflow_phase": "ACS 正在执行参考解自测",
+      "stage": 3,
+      "wait_minutes": 6,
+      "accepted_versions": 0,
+      "started_versions": 0,
+      "recent_tool_results": 46,
+      "model_errors": 0,
+      "latest_action_exit_code": null,
+      "process_live": true,
+      "expected_review_wait": false,
+      "maintenance_hold": null,
+      "session_started": null,
+      "model_activity_observed": null,
+      "latest_action_at": 1794041638.698,
+      "last_activity": 1794041638.698,
+      "phase_started_at": 1794041638.698,
+      "runtime_reason": "运行状态来自本次会话与进程观测。",
+      "long_compute_observation": null,
+      "repeated_wait_observation": null,
+      "blocker": null,
+      "review_blocked": false,
+      "review_blocker": null,
+      "selftest": {
+        "status": "running_oracle",
+        "stage": "unknown",
+        "failure_owner": "unknown"
+      },
+      "feedback": {
+        "state": "waiting_author",
+        "stage": "author_container_preflight",
+        "scope": "current",
+        "updated_at": 1794041389.2840478,
+        "reason": "评审要求作者继续修改，需核查阅读与修复进展。",
+        "author_must_pause": false
+      },
+      "review_queue_wait": null,
+      "next_step": "继续推进当前选题，并依据自测和正式评审回执更新状态。"
+    },
+    {
+      "role": "author-07",
+      "task": "neo-orbit-determination",
+      "title": "近地天体轨道测定",
+      "summary": "研究天文观测约束下的轨道估计。",
+      "proposal_summary": "研究天文观测约束下的轨道估计。",
+      "summary_source": "依据选题标识生成的安全中文概括",
+      "acceptance_followup": {
+        "accepted_versions": [],
+        "current_ideas": [
+          {
+            "idea_id": "neo-orbit-provenance-receipt",
+            "title": "近地天体轨道资料溯源",
+            "summary": "核对轨道研究所用资料的来源与可追溯性。",
+            "state": "session_paused",
+            "last_at": 1794027470.0033567
+          }
+        ]
+      },
+      "latest_observed_action": "检查题包、日志或反馈",
+      "activity": {
+        "code": "session_ended",
+        "label": "会话已结束",
+        "resources": {
+          "cpu_percent": 0.0,
+          "rss_bytes": 0,
+          "cpu_seconds": null,
+          "process_count": 0,
+          "descendant_count": null,
+          "processes": null,
+          "rss_mb": null,
+          "cpu_delta_seconds": null,
+          "cpu_active_processes": null,
+          "sample_seconds": 0.202,
+          "stable_process_count": 0,
+          "cpu_seconds_delta": 0,
+          "sleep_processes": 0,
+          "non_wait_processes": 0,
+          "read_bytes_delta": null,
+          "write_bytes_delta": null
+        }
+      },
+      "reviews": [
+        {
+          "role": "evaluator-01",
+          "author_role": "author-07",
+          "task": "neo-orbit-determination",
+          "commit": "0b0d781f42eeede3aebe1af96d786812dfcd80ea",
+          "state": "running",
+          "review_state": "waiting_platform",
+          "stage": "five_rollouts",
+          "started": true,
+          "accepted": false,
+          "reviewer_active": false,
+          "completed_jobs": null,
+          "total_jobs": null,
+          "valid_trials": 2,
+          "selected_job_ids": [
+            "dc453c765d0752339b276e8903ea0f4f",
+            "c59aeec05304b58ef853bdf227cd81bf",
+            "5162b5825d91aa1792684e539afd8d98",
+            "ba3f522724c1b36e1e3e69b0436b06c2",
+            "1c1ec0d799f3da1337d79f8411d358d7"
+          ]
+        }
+      ],
+      "runtime": "正常等待评审",
+      "scheduler_state": "blocked",
+      "stage_label": "正式验收",
+      "workflow_phase": "五次独立评测执行或结果回收",
+      "stage": 4,
+      "wait_minutes": 0,
+      "accepted_versions": 0,
+      "started_versions": 1,
+      "recent_tool_results": 0,
+      "model_errors": 0,
+      "latest_action_exit_code": 0,
+      "process_live": false,
+      "expected_review_wait": true,
+      "maintenance_hold": null,
+      "session_started": null,
+      "model_activity_observed": null,
+      "latest_action_at": 1794027469.971,
+      "last_activity": 1794027470.621,
+      "phase_started_at": null,
+      "runtime_reason": "当前处于评审流程等待，后续以正式裁决为准。",
+      "long_compute_observation": null,
+      "repeated_wait_observation": null,
+      "blocker": null,
+      "review_blocked": false,
+      "review_blocker": null,
+      "selftest": {
+        "status": "selftest_passed",
+        "stage": "unknown",
+        "failure_owner": "unknown"
+      },
+      "feedback": {
+        "state": "waiting_platform",
+        "stage": "five_rollouts",
+        "scope": "current",
+        "updated_at": 1794041997.4760628,
+        "reason": "正在等待平台执行或评测证据。",
+        "author_must_pause": true
+      },
+      "review_queue_wait": null,
+      "next_step": "继续推进当前选题，并依据自测和正式评审回执更新状态。"
+    },
+    {
+      "role": "author-08",
+      "task": "wrf-lulc-tables",
+      "title": "天气模型土地利用参数",
+      "summary": "核查天气模型土地利用资料与参数表的一致性。",
+      "proposal_summary": "核查天气模型土地利用资料与参数表的一致性。",
+      "summary_source": "依据选题标识生成的安全中文概括",
+      "acceptance_followup": {
+        "accepted_versions": [],
+        "current_ideas": [
+          {
+            "idea_id": "wrf-lulc-tables",
+            "title": "天气模型土地利用参数",
+            "summary": "核查天气模型土地利用资料与参数表的一致性。",
+            "state": "session_paused",
+            "last_at": 1794040441.034
+          }
+        ]
+      },
+      "latest_observed_action": "提交或检查平台自测",
+      "activity": {
+        "code": "session_ended",
+        "label": "会话已结束",
+        "resources": {
+          "cpu_percent": 0.0,
+          "rss_bytes": 0,
+          "cpu_seconds": null,
+          "process_count": 0,
+          "descendant_count": null,
+          "processes": null,
+          "rss_mb": null,
+          "cpu_delta_seconds": null,
+          "cpu_active_processes": null,
+          "sample_seconds": 0.202,
+          "stable_process_count": 0,
+          "cpu_seconds_delta": 0,
+          "sleep_processes": 0,
+          "non_wait_processes": 0,
+          "read_bytes_delta": null,
+          "write_bytes_delta": null
+        }
+      },
+      "reviews": [
+        {
+          "role": "evaluator-01",
+          "author_role": "author-08",
+          "task": "wrf-lulc-tables",
+          "commit": "2aa692dd5eee91d8ae5ced5493b3b9499a0bee51",
+          "state": "running",
+          "review_state": "reviewing",
+          "stage": "five_rollouts",
+          "started": true,
+          "accepted": false,
+          "reviewer_active": true,
+          "completed_jobs": null,
+          "total_jobs": null,
+          "valid_trials": 1,
+          "selected_job_ids": [
+            "3cd1065933b7e21173f393f5e7018c38",
+            "d62ec6e3ae0dedc3072a5aef538b400e",
+            "6722c52c1969c318d05f9397703657c4",
+            "ed60b22f9e7bbad50b31d7d853b6cd8d",
+            "556685f98ad254bd5db8a8f11d6a7595"
+          ]
+        }
+      ],
+      "runtime": "正常等待评审",
+      "scheduler_state": "blocked",
+      "stage_label": "正式验收",
+      "workflow_phase": "evaluator 正在审查轨迹、证据与题目质量",
+      "stage": 4,
+      "wait_minutes": 0,
+      "accepted_versions": 0,
+      "started_versions": 1,
+      "recent_tool_results": 60,
+      "model_errors": 2,
+      "latest_action_exit_code": 0,
+      "process_live": false,
+      "expected_review_wait": true,
+      "maintenance_hold": null,
+      "session_started": null,
+      "model_activity_observed": null,
+      "latest_action_at": 1794040424.174,
+      "last_activity": 1794040441.034,
+      "phase_started_at": null,
+      "runtime_reason": "当前处于评审流程等待，后续以正式裁决为准。",
+      "long_compute_observation": null,
+      "repeated_wait_observation": null,
+      "blocker": null,
+      "review_blocked": false,
+      "review_blocker": null,
+      "selftest": {
+        "status": "selftest_passed",
+        "stage": "unknown",
+        "failure_owner": "unknown"
+      },
+      "feedback": {
+        "state": "reviewing",
+        "stage": "five_rollouts",
+        "scope": "current",
+        "updated_at": 1794041998.1503174,
+        "reason": "当前反馈以对应版本的正式评审记录为准。",
+        "author_must_pause": true
+      },
+      "review_queue_wait": null,
+      "next_step": "继续推进当前选题，并依据自测和正式评审回执更新状态。"
+    },
+    {
+      "role": "author-09",
+      "task": "codex-rbsr-isochron",
+      "title": "铷锶同位素等时线定年",
+      "summary": "从原始原位测点资料进行数据约化，估计等时线年龄并核查方法依据。",
+      "proposal_summary": "从原始原位测点资料进行数据约化，估计等时线年龄并核查方法依据。",
+      "summary_source": "依据选题标识生成的安全中文概括",
+      "acceptance_followup": {
+        "accepted_versions": [],
+        "current_ideas": [
+          {
+            "idea_id": "codex-rbsr-isochron-reduction",
+            "title": "铷锶同位素等时线定年",
+            "summary": "探索原位同位素测点约化、等时线拟合与年代学验证。",
+            "state": "session_paused",
+            "last_at": 1794041637.301
+          }
+        ]
+      },
+      "latest_observed_action": "计算或验证题包逻辑",
+      "activity": {
+        "code": "session_ended",
+        "label": "会话已结束",
+        "resources": {
+          "cpu_percent": 0.0,
+          "rss_bytes": 0,
+          "cpu_seconds": null,
+          "process_count": 0,
+          "descendant_count": null,
+          "processes": null,
+          "rss_mb": null,
+          "cpu_delta_seconds": null,
+          "cpu_active_processes": null,
+          "sample_seconds": 0.202,
+          "stable_process_count": 0,
+          "cpu_seconds_delta": 0,
+          "sleep_processes": 0,
+          "non_wait_processes": 0,
+          "read_bytes_delta": null,
+          "write_bytes_delta": null
+        }
+      },
+      "reviews": [
+        {
+          "role": "author-09",
+          "author_role": "author-09",
+          "task": "codex-rbsr-isochron",
+          "commit": "3f957dd669ad2cbd405b1d6d09111d4e9359e185",
+          "state": "assigned",
+          "review_state": "unknown",
+          "stage": "current_version_registration",
+          "started": false,
+          "accepted": false,
+          "reviewer_active": false,
+          "completed_jobs": null,
+          "total_jobs": null,
+          "valid_trials": 0,
+          "selected_job_ids": []
+        }
+      ],
+      "runtime": "正常等待评审",
+      "scheduler_state": "blocked",
+      "stage_label": "平台自测",
+      "workflow_phase": "自测通过，评审容量排队",
+      "stage": 3,
+      "wait_minutes": 0,
+      "accepted_versions": 0,
+      "started_versions": 0,
+      "recent_tool_results": 104,
+      "model_errors": 2,
+      "latest_action_exit_code": 0,
+      "process_live": false,
+      "expected_review_wait": true,
+      "maintenance_hold": null,
+      "session_started": null,
+      "model_activity_observed": null,
+      "latest_action_at": 1794041635.153,
+      "last_activity": 1794041637.301,
+      "phase_started_at": null,
+      "runtime_reason": "当前处于评审流程等待，后续以正式裁决为准。",
+      "long_compute_observation": null,
+      "repeated_wait_observation": null,
+      "blocker": null,
+      "review_blocked": false,
+      "review_blocker": null,
+      "selftest": {
+        "status": "selftest_passed",
+        "stage": "unknown",
+        "failure_owner": "unknown"
+      },
+      "feedback": {
+        "state": "waiting_platform",
+        "stage": "evaluator_capacity",
+        "scope": "current",
+        "updated_at": 1794041998.2511137,
+        "reason": "正在等待平台执行或评测证据。",
+        "author_must_pause": true
+      },
+      "review_queue_wait": {
+        "elapsed_seconds": 570
+      },
+      "next_step": "继续推进当前选题，并依据自测和正式评审回执更新状态。"
+    },
+    {
+      "role": "author-10",
+      "task": "woa18-oxygen-inventory",
+      "title": "woa18-oxygen-inventory",
+      "summary": "来源选题标识，尚未生成中文思路概括。",
+      "proposal_summary": "来源选题标识，尚未生成中文思路概括。",
+      "summary_source": "依据选题标识生成的安全中文概括",
+      "acceptance_followup": {
+        "accepted_versions": [],
+        "current_ideas": [
+          {
+            "idea_id": "geo-ocean-flux-obs",
+            "title": "海洋通量观测分析",
+            "summary": "探索海洋通量观测资料与分析方法。",
+            "state": "active",
+            "last_at": 1794041860.3183465
+          }
+        ]
+      },
+      "latest_observed_action": "修改题目、解法或验证脚本",
+      "activity": {
+        "code": "between_tools",
+        "label": "会话运行中（无未完成命令）",
+        "resources": {
+          "cpu_percent": 0.0,
+          "rss_bytes": 0,
+          "cpu_seconds": null,
+          "process_count": 0,
+          "descendant_count": null,
+          "processes": null,
+          "rss_mb": null,
+          "cpu_delta_seconds": null,
+          "cpu_active_processes": null,
+          "sample_seconds": 0.202,
+          "stable_process_count": 0,
+          "cpu_seconds_delta": 0,
+          "sleep_processes": 0,
+          "non_wait_processes": 0,
+          "read_bytes_delta": null,
+          "write_bytes_delta": null
+        }
+      },
+      "reviews": [],
+      "runtime": "运行中",
+      "scheduler_state": "running",
+      "stage_label": "探索来源",
+      "workflow_phase": "探索来源",
+      "stage": 0,
+      "wait_minutes": 0,
+      "accepted_versions": 0,
+      "started_versions": 0,
+      "recent_tool_results": 64,
+      "model_errors": 2,
+      "latest_action_exit_code": 0,
+      "process_live": true,
+      "expected_review_wait": false,
+      "maintenance_hold": null,
+      "session_started": null,
+      "model_activity_observed": null,
+      "latest_action_at": 1794041945.959,
+      "last_activity": 1794041946.027,
+      "phase_started_at": null,
+      "runtime_reason": "运行状态来自本次会话与进程观测。",
+      "long_compute_observation": null,
+      "repeated_wait_observation": null,
+      "blocker": null,
+      "review_blocked": false,
+      "review_blocker": null,
+      "selftest": {
+        "status": "unknown",
+        "stage": "unknown",
+        "failure_owner": "unknown"
+      },
+      "feedback": {
+        "state": "unknown",
+        "stage": "unknown",
+        "scope": "historical_or_unbound",
+        "updated_at": null,
+        "reason": "当前反馈以对应版本的正式评审记录为准。",
+        "author_must_pause": null
+      },
+      "review_queue_wait": null,
+      "next_step": "继续推进当前选题，并依据自测和正式评审回执更新状态。"
+    },
+    {
+      "role": "author-11",
+      "task": "crossref-relation-audit",
+      "title": "学术文献关联关系审计",
+      "summary": "核查学术文献元数据与关联关系。",
+      "proposal_summary": "核查学术文献元数据与关联关系。",
+      "summary_source": "依据选题标识生成的安全中文概括",
+      "acceptance_followup": {
+        "accepted_versions": [],
+        "current_ideas": [
+          {
+            "idea_id": "integrity-retraction-screening",
+            "title": "撤稿与科研诚信筛查",
+            "summary": "探索文献撤稿信息及研究诚信筛查方法。",
+            "state": "session_paused",
+            "last_at": 1794040030.986
+          }
+        ]
+      },
+      "latest_observed_action": "计算或验证题包逻辑",
+      "activity": {
+        "code": "session_ended",
+        "label": "会话已结束",
+        "resources": {
+          "cpu_percent": 0.0,
+          "rss_bytes": 0,
+          "cpu_seconds": null,
+          "process_count": 0,
+          "descendant_count": null,
+          "processes": null,
+          "rss_mb": null,
+          "cpu_delta_seconds": null,
+          "cpu_active_processes": null,
+          "sample_seconds": 0.202,
+          "stable_process_count": 0,
+          "cpu_seconds_delta": 0,
+          "sleep_processes": 0,
+          "non_wait_processes": 0,
+          "read_bytes_delta": null,
+          "write_bytes_delta": null
+        }
+      },
+      "reviews": [
+        {
+          "role": "evaluator-03",
+          "author_role": "author-11",
+          "task": "crossref-relation-audit",
+          "commit": "1ea5a90092eceb3b46822d94f02ec0746c85ac5f",
+          "state": "evidence_collected",
+          "review_state": "waiting_platform",
+          "stage": "five_rollouts",
+          "started": true,
+          "accepted": false,
+          "reviewer_active": false,
+          "completed_jobs": null,
+          "total_jobs": null,
+          "valid_trials": 5,
+          "selected_job_ids": [
+            "aaca1721b8f968d22f5c14b51b36a1c6",
+            "3504f928f696dae80fbcaae6516dd8ae",
+            "db0c9ef5f96485559083861cb356fdd3",
+            "f6afebb72fe47f8ca1231bd330099d7d",
+            "e9a15a1d08544374dda27189c641046d"
+          ]
+        }
+      ],
+      "runtime": "正常等待评审",
+      "scheduler_state": "blocked",
+      "stage_label": "正式验收",
+      "workflow_phase": "五次独立评测已齐，等待最终质量评审",
+      "stage": 4,
+      "wait_minutes": 0,
+      "accepted_versions": 0,
+      "started_versions": 1,
+      "recent_tool_results": 53,
+      "model_errors": 0,
+      "latest_action_exit_code": 0,
+      "process_live": false,
+      "expected_review_wait": true,
+      "maintenance_hold": null,
+      "session_started": null,
+      "model_activity_observed": null,
+      "latest_action_at": 1794040026.232,
+      "last_activity": 1794040030.986,
+      "phase_started_at": null,
+      "runtime_reason": "当前处于评审流程等待，后续以正式裁决为准。",
+      "long_compute_observation": null,
+      "repeated_wait_observation": null,
+      "blocker": null,
+      "review_blocked": false,
+      "review_blocker": null,
+      "selftest": {
+        "status": "selftest_passed",
+        "stage": "unknown",
+        "failure_owner": "unknown"
+      },
+      "feedback": {
+        "state": "waiting_platform",
+        "stage": "five_rollouts",
+        "scope": "current",
+        "updated_at": 1794041997.8198278,
+        "reason": "正在等待平台执行或评测证据。",
+        "author_must_pause": true
+      },
+      "review_queue_wait": null,
+      "next_step": "继续推进当前选题，并依据自测和正式评审回执更新状态。"
+    },
+    {
+      "role": "author-12",
+      "task": "bryomin-skeletal-mineralogy",
+      "title": "苔藓动物骨骼矿物学",
+      "summary": "研究骨骼矿物组成及其科学资料。",
+      "proposal_summary": "研究骨骼矿物组成及其科学资料。",
+      "summary_source": "依据选题标识生成的安全中文概括",
+      "acceptance_followup": {
+        "accepted_versions": [],
+        "current_ideas": [
+          {
+            "idea_id": "bryomin-phylo-partition",
+            "title": "矿物组成与系统发育分组",
+            "summary": "探索系统发育分组与骨骼矿物学分析。",
+            "state": "session_paused",
+            "last_at": 1794039631.543
+          }
+        ]
+      },
+      "latest_observed_action": "检查题包、日志或反馈",
+      "activity": {
+        "code": "session_ended",
+        "label": "会话已结束",
+        "resources": {
+          "cpu_percent": 0.0,
+          "rss_bytes": 0,
+          "cpu_seconds": null,
+          "process_count": 0,
+          "descendant_count": null,
+          "processes": null,
+          "rss_mb": null,
+          "cpu_delta_seconds": null,
+          "cpu_active_processes": null,
+          "sample_seconds": 0.202,
+          "stable_process_count": 0,
+          "cpu_seconds_delta": 0,
+          "sleep_processes": 0,
+          "non_wait_processes": 0,
+          "read_bytes_delta": null,
+          "write_bytes_delta": null
+        }
+      },
+      "reviews": [
+        {
+          "role": "evaluator-01",
+          "author_role": "author-12",
+          "task": "bryomin-skeletal-mineralogy",
+          "commit": "611e6eb1f05197548b28ccadc4f15ff55eae53cd",
+          "state": "evidence_collected",
+          "review_state": "waiting_platform",
+          "stage": "five_rollouts",
+          "started": true,
+          "accepted": false,
+          "reviewer_active": false,
+          "completed_jobs": null,
+          "total_jobs": null,
+          "valid_trials": 5,
+          "selected_job_ids": [
+            "74820e1adc575342d7023a8c99a3ad70",
+            "522bf6cf75625dea2d049481795cae0f",
+            "45fc205bd13b3c33a57db98c09949a1f",
+            "9bc9b2551d020ced962b44b2783eff36",
+            "44cb308521f767045bcd46c74152491f"
+          ]
+        }
+      ],
+      "runtime": "正常等待评审",
+      "scheduler_state": "blocked",
+      "stage_label": "正式验收",
+      "workflow_phase": "五次独立评测已齐，等待最终质量评审",
+      "stage": 4,
+      "wait_minutes": 0,
+      "accepted_versions": 0,
+      "started_versions": 1,
+      "recent_tool_results": 48,
+      "model_errors": 4,
+      "latest_action_exit_code": 0,
+      "process_live": false,
+      "expected_review_wait": true,
+      "maintenance_hold": null,
+      "session_started": null,
+      "model_activity_observed": null,
+      "latest_action_at": 1794039624.665,
+      "last_activity": 1794039631.543,
+      "phase_started_at": null,
+      "runtime_reason": "当前处于评审流程等待，后续以正式裁决为准。",
+      "long_compute_observation": null,
+      "repeated_wait_observation": null,
+      "blocker": null,
+      "review_blocked": false,
+      "review_blocker": null,
+      "selftest": {
+        "status": "selftest_passed",
+        "stage": "unknown",
+        "failure_owner": "unknown"
+      },
+      "feedback": {
+        "state": "waiting_platform",
+        "stage": "five_rollouts",
+        "scope": "current",
+        "updated_at": 1794041997.798457,
+        "reason": "正在等待平台执行或评测证据。",
+        "author_must_pause": true
+      },
+      "review_queue_wait": null,
+      "next_step": "继续推进当前选题，并依据自测和正式评审回执更新状态。"
+    },
+    {
+      "role": "author-13",
+      "task": "ghcn-extremes-audit",
+      "title": "气象站极端指标审计",
+      "summary": "从原始逐日站点记录处理缺测和质量标记，核查极端指标及其有效年份范围。",
+      "proposal_summary": "从原始逐日站点记录处理缺测和质量标记，核查极端指标及其有效年份范围。",
+      "summary_source": "依据选题标识生成的安全中文概括",
+      "acceptance_followup": {
+        "accepted_versions": [],
+        "current_ideas": [
+          {
+            "idea_id": "ghcn-climate-extremes-audit",
+            "title": "ghcn-climate-extremes-audit",
+            "summary": "来源选题标识，尚未生成中文思路概括。",
+            "state": "session_paused",
+            "last_at": 1794041629.779
+          }
+        ]
+      },
+      "latest_observed_action": "提交或检查平台自测",
+      "activity": {
+        "code": "session_ended",
+        "label": "会话已结束",
+        "resources": {
+          "cpu_percent": 0.0,
+          "rss_bytes": 0,
+          "cpu_seconds": null,
+          "process_count": 0,
+          "descendant_count": null,
+          "processes": null,
+          "rss_mb": null,
+          "cpu_delta_seconds": null,
+          "cpu_active_processes": null,
+          "sample_seconds": 0.202,
+          "stable_process_count": 0,
+          "cpu_seconds_delta": 0,
+          "sleep_processes": 0,
+          "non_wait_processes": 0,
+          "read_bytes_delta": null,
+          "write_bytes_delta": null
+        }
+      },
+      "reviews": [
+        {
+          "role": "author-13",
+          "author_role": "author-13",
+          "task": "ghcn-extremes-audit",
+          "commit": "782c4c8b7f75204c912ffbc9be66a42532d99b3c",
+          "state": "assigned",
+          "review_state": "unknown",
+          "stage": "current_version_registration",
+          "started": false,
+          "accepted": false,
+          "reviewer_active": false,
+          "completed_jobs": null,
+          "total_jobs": null,
+          "valid_trials": 0,
+          "selected_job_ids": []
+        }
+      ],
+      "runtime": "正常等待评审",
+      "scheduler_state": "blocked",
+      "stage_label": "平台自测",
+      "workflow_phase": "自测通过，评审容量排队",
+      "stage": 3,
+      "wait_minutes": 0,
+      "accepted_versions": 0,
+      "started_versions": 1,
+      "recent_tool_results": 49,
+      "model_errors": 0,
+      "latest_action_exit_code": 0,
+      "process_live": false,
+      "expected_review_wait": true,
+      "maintenance_hold": null,
+      "session_started": null,
+      "model_activity_observed": null,
+      "latest_action_at": 1794041443.784,
+      "last_activity": 1794041629.779,
+      "phase_started_at": null,
+      "runtime_reason": "当前处于评审流程等待，后续以正式裁决为准。",
+      "long_compute_observation": null,
+      "repeated_wait_observation": null,
+      "blocker": null,
+      "review_blocked": false,
+      "review_blocker": null,
+      "selftest": {
+        "status": "selftest_passed",
+        "stage": "unknown",
+        "failure_owner": "unknown"
+      },
+      "feedback": {
+        "state": "waiting_platform",
+        "stage": "evaluator_capacity",
+        "scope": "current",
+        "updated_at": 1794041998.2578142,
+        "reason": "正在等待平台执行或评测证据。",
+        "author_must_pause": true
+      },
+      "review_queue_wait": {
+        "elapsed_seconds": 558
+      },
+      "next_step": "继续推进当前选题，并依据自测和正式评审回执更新状态。"
+    },
+    {
+      "role": "author-14",
+      "task": "swarm-dst-baseline",
+      "title": "地磁卫星与指数基线",
+      "summary": "研究地磁卫星观测及地磁指数的基线一致性。",
+      "proposal_summary": "研究地磁卫星观测及地磁指数的基线一致性。",
+      "summary_source": "依据选题标识生成的安全中文概括",
+      "acceptance_followup": {
+        "accepted_versions": [],
+        "current_ideas": [
+          {
+            "idea_id": "tb-science-igrf-residual-anomaly",
+            "title": "地磁模型残差与异常",
+            "summary": "探索地磁参考模型残差与异常分析。",
+            "state": "session_paused",
+            "last_at": 1794040907.497
+          }
+        ]
+      },
+      "latest_observed_action": "提交或检查平台自测",
+      "activity": {
+        "code": "session_ended",
+        "label": "会话已结束",
+        "resources": {
+          "cpu_percent": 0.0,
+          "rss_bytes": 0,
+          "cpu_seconds": null,
+          "process_count": 0,
+          "descendant_count": null,
+          "processes": null,
+          "rss_mb": null,
+          "cpu_delta_seconds": null,
+          "cpu_active_processes": null,
+          "sample_seconds": 0.202,
+          "stable_process_count": 0,
+          "cpu_seconds_delta": 0,
+          "sleep_processes": 0,
+          "non_wait_processes": 0,
+          "read_bytes_delta": null,
+          "write_bytes_delta": null
+        }
+      },
+      "reviews": [
+        {
+          "role": "author-14",
+          "author_role": "author-14",
+          "task": "swarm-dst-baseline",
+          "commit": "8e27d18b23542cfca2e4f61de31a60cfd7021bac",
+          "state": "assigned",
+          "review_state": "unknown",
+          "stage": "current_version_registration",
+          "started": false,
+          "accepted": false,
+          "reviewer_active": false,
+          "completed_jobs": null,
+          "total_jobs": null,
+          "valid_trials": 0,
+          "selected_job_ids": []
+        }
+      ],
+      "runtime": "正常等待评审",
+      "scheduler_state": "blocked",
+      "stage_label": "平台自测",
+      "workflow_phase": "自测通过，评审容量排队",
+      "stage": 3,
+      "wait_minutes": 0,
+      "accepted_versions": 0,
+      "started_versions": 0,
+      "recent_tool_results": 76,
+      "model_errors": 1,
+      "latest_action_exit_code": 0,
+      "process_live": false,
+      "expected_review_wait": true,
+      "maintenance_hold": null,
+      "session_started": null,
+      "model_activity_observed": null,
+      "latest_action_at": 1794040905.408,
+      "last_activity": 1794040907.497,
+      "phase_started_at": null,
+      "runtime_reason": "当前处于评审流程等待，后续以正式裁决为准。",
+      "long_compute_observation": null,
+      "repeated_wait_observation": null,
+      "blocker": null,
+      "review_blocked": false,
+      "review_blocker": null,
+      "selftest": {
+        "status": "selftest_passed",
+        "stage": "unknown",
+        "failure_owner": "unknown"
+      },
+      "feedback": {
+        "state": "waiting_platform",
+        "stage": "evaluator_capacity",
+        "scope": "current",
+        "updated_at": 1794041998.2307017,
+        "reason": "正在等待平台执行或评测证据。",
+        "author_must_pause": true
+      },
+      "review_queue_wait": {
+        "elapsed_seconds": 1298
+      },
+      "next_step": "继续推进当前选题，并依据自测和正式评审回执更新状态。"
+    },
+    {
+      "role": "author-15",
+      "task": "tidal-datum-transfer",
+      "title": "短记录潮位基准迁移",
+      "summary": "利用长期参考站核查临时潮位站的基准迁移。",
+      "proposal_summary": "利用长期参考站核查临时潮位站的基准迁移。",
+      "summary_source": "依据选题标识生成的安全中文概括",
+      "acceptance_followup": {
+        "accepted_versions": [],
+        "current_ideas": [
+          {
+            "idea_id": "tidal-datum-transfer",
+            "title": "短记录潮位基准迁移",
+            "summary": "利用长期参考站核查临时潮位站的基准迁移。",
+            "state": "session_paused",
+            "last_at": 1794041667.789
+          }
+        ]
+      },
+      "latest_observed_action": "提交或检查平台自测",
+      "activity": {
+        "code": "session_ended",
+        "label": "会话已结束",
+        "resources": {
+          "cpu_percent": 0.0,
+          "rss_bytes": 0,
+          "cpu_seconds": null,
+          "process_count": 0,
+          "descendant_count": null,
+          "processes": null,
+          "rss_mb": null,
+          "cpu_delta_seconds": null,
+          "cpu_active_processes": null,
+          "sample_seconds": 0.202,
+          "stable_process_count": 0,
+          "cpu_seconds_delta": 0,
+          "sleep_processes": 0,
+          "non_wait_processes": 0,
+          "read_bytes_delta": null,
+          "write_bytes_delta": null
+        }
+      },
+      "reviews": [
+        {
+          "role": "author-15",
+          "author_role": "author-15",
+          "task": "tidal-datum-transfer",
+          "commit": "1fd11b9af7b6de44e1a1c5a4e7b48f78c7cd1930",
+          "state": "assigned",
+          "review_state": "unknown",
+          "stage": "current_version_registration",
+          "started": false,
+          "accepted": false,
+          "reviewer_active": false,
+          "completed_jobs": null,
+          "total_jobs": null,
+          "valid_trials": 0,
+          "selected_job_ids": []
+        }
+      ],
+      "runtime": "正常等待评审",
+      "scheduler_state": "blocked",
+      "stage_label": "平台自测",
+      "workflow_phase": "自测通过，评审容量排队",
+      "stage": 3,
+      "wait_minutes": 0,
+      "accepted_versions": 0,
+      "started_versions": 0,
+      "recent_tool_results": 84,
+      "model_errors": 3,
+      "latest_action_exit_code": 0,
+      "process_live": false,
+      "expected_review_wait": true,
+      "maintenance_hold": null,
+      "session_started": null,
+      "model_activity_observed": null,
+      "latest_action_at": 1794041661.052,
+      "last_activity": 1794041667.789,
+      "phase_started_at": null,
+      "runtime_reason": "当前处于评审流程等待，后续以正式裁决为准。",
+      "long_compute_observation": null,
+      "repeated_wait_observation": null,
+      "blocker": null,
+      "review_blocked": false,
+      "review_blocker": null,
+      "selftest": {
+        "status": "selftest_passed",
+        "stage": "unknown",
+        "failure_owner": "unknown"
+      },
+      "feedback": {
+        "state": "waiting_platform",
+        "stage": "evaluator_capacity",
+        "scope": "current",
+        "updated_at": 1794041998.2450457,
+        "reason": "正在等待平台执行或评测证据。",
+        "author_must_pause": true
+      },
+      "review_queue_wait": {
+        "elapsed_seconds": 582
+      },
+      "next_step": "继续推进当前选题，并依据自测和正式评审回执更新状态。"
+    },
+    {
+      "role": "author-16",
+      "task": "gistemp-land-reconstruction",
+      "title": "陆地温度指数重建",
+      "summary": "用站点月均温资料重建格点与全球温度序列，研究空间组合半径的影响。",
+      "proposal_summary": "用站点月均温资料重建格点与全球温度序列，研究空间组合半径的影响。",
+      "summary_source": "依据选题标识生成的安全中文概括",
+      "acceptance_followup": {
+        "accepted_versions": [],
+        "current_ideas": [
+          {
+            "idea_id": "gistemp-radius-sensitivity",
+            "title": "陆地温度指数半径敏感性",
+            "summary": "研究站点组合半径变化对温度指数重建的影响。",
+            "state": "active",
+            "last_at": 1794040541.1049984
+          }
+        ]
+      },
+      "latest_observed_action": "提交或检查平台自测",
+      "activity": {
+        "code": "command_running",
+        "label": "本地命令执行（当前进展待核查）",
+        "resources": {
+          "cpu_percent": 0.0,
+          "rss_bytes": 22216704,
+          "cpu_seconds": null,
+          "process_count": 2,
+          "descendant_count": null,
+          "processes": null,
+          "rss_mb": null,
+          "cpu_delta_seconds": null,
+          "cpu_active_processes": null,
+          "sample_seconds": 0.202,
+          "stable_process_count": 2,
+          "cpu_seconds_delta": 0,
+          "sleep_processes": 0,
+          "non_wait_processes": 1,
+          "read_bytes_delta": null,
+          "write_bytes_delta": null
+        }
+      },
+      "reviews": [
+        {
+          "role": "author-16",
+          "author_role": "author-16",
+          "task": "gistemp-land-reconstruction",
+          "commit": "ab04e83880b87847ccf8f6d5656fb90d903ccf21",
+          "state": "assigned",
+          "review_state": "unknown",
+          "stage": "current_version_registration",
+          "started": false,
+          "accepted": false,
+          "reviewer_active": false,
+          "completed_jobs": null,
+          "total_jobs": null,
+          "valid_trials": 0,
+          "selected_job_ids": []
+        }
+      ],
+      "runtime": "本地命令执行（当前进展待核查）",
+      "scheduler_state": "running",
+      "stage_label": "平台自测",
+      "workflow_phase": "ACS 正在执行参考解自测",
+      "stage": 3,
+      "wait_minutes": 6,
+      "accepted_versions": 0,
+      "started_versions": 0,
+      "recent_tool_results": 46,
+      "model_errors": 0,
+      "latest_action_exit_code": null,
+      "process_live": true,
+      "expected_review_wait": false,
+      "maintenance_hold": null,
+      "session_started": null,
+      "model_activity_observed": null,
+      "latest_action_at": 1794041648.365,
+      "last_activity": 1794041648.365,
+      "phase_started_at": 1794041648.365,
+      "runtime_reason": "运行状态来自本次会话与进程观测。",
+      "long_compute_observation": null,
+      "repeated_wait_observation": null,
+      "blocker": null,
+      "review_blocked": false,
+      "review_blocker": null,
+      "selftest": {
+        "status": "running_oracle",
+        "stage": "unknown",
+        "failure_owner": "unknown"
+      },
+      "feedback": {
+        "state": "unknown",
+        "stage": "unknown",
+        "scope": "historical_or_unbound",
+        "updated_at": null,
+        "reason": "当前反馈以对应版本的正式评审记录为准。",
+        "author_must_pause": null
+      },
+      "review_queue_wait": null,
+      "next_step": "继续推进当前选题，并依据自测和正式评审回执更新状态。"
+    },
+    {
+      "role": "author-17",
+      "task": "tide-residual-audit",
+      "title": "潮位重建与非潮汐残差审计",
+      "summary": "从短期潮位观测恢复谐波成分，结合独立预测资料检验重建与残差。",
+      "proposal_summary": "从短期潮位观测恢复谐波成分，结合独立预测资料检验重建与残差。",
+      "summary_source": "依据选题标识生成的安全中文概括",
+      "acceptance_followup": {
+        "accepted_versions": [
+          {
+            "task": "amplicon-structure-audit",
+            "commit": "5045bf78676f10052b268677cc26b5fa79115c62",
+            "published": true,
+            "comment_id": 193,
+            "published_at": 1794033218.0
+          }
+        ],
+        "current_ideas": [
+          {
+            "idea_id": "coastal-tide-residual-audit",
+            "title": "coastal-tide-residual-audit",
+            "summary": "来源选题标识，尚未生成中文思路概括。",
+            "state": "session_paused",
+            "last_at": 1794040616.765
+          }
+        ]
+      },
+      "latest_observed_action": "提交或检查平台自测",
+      "activity": {
+        "code": "session_ended",
+        "label": "会话已结束",
+        "resources": {
+          "cpu_percent": 0.0,
+          "rss_bytes": 0,
+          "cpu_seconds": null,
+          "process_count": 0,
+          "descendant_count": null,
+          "processes": null,
+          "rss_mb": null,
+          "cpu_delta_seconds": null,
+          "cpu_active_processes": null,
+          "sample_seconds": 0.202,
+          "stable_process_count": 0,
+          "cpu_seconds_delta": 0,
+          "sleep_processes": 0,
+          "non_wait_processes": 0,
+          "read_bytes_delta": null,
+          "write_bytes_delta": null
+        }
+      },
+      "reviews": [
+        {
+          "role": "author-17",
+          "author_role": "author-17",
+          "task": "tide-residual-audit",
+          "commit": "c383f89d61cf77f82264b0da6cb4db68152b9f94",
+          "state": "assigned",
+          "review_state": "unknown",
+          "stage": "current_version_registration",
+          "started": false,
+          "accepted": false,
+          "reviewer_active": false,
+          "completed_jobs": null,
+          "total_jobs": null,
+          "valid_trials": 0,
+          "selected_job_ids": []
+        }
+      ],
+      "runtime": "正常等待评审",
+      "scheduler_state": "blocked",
+      "stage_label": "平台自测",
+      "workflow_phase": "自测通过，评审容量排队",
+      "stage": 3,
+      "wait_minutes": 0,
+      "accepted_versions": 0,
+      "started_versions": 1,
+      "recent_tool_results": 86,
+      "model_errors": 1,
+      "latest_action_exit_code": 0,
+      "process_live": false,
+      "expected_review_wait": true,
+      "maintenance_hold": null,
+      "session_started": null,
+      "model_activity_observed": null,
+      "latest_action_at": 1794040458.993,
+      "last_activity": 1794040616.765,
+      "phase_started_at": null,
+      "runtime_reason": "当前处于评审流程等待，后续以正式裁决为准。",
+      "long_compute_observation": null,
+      "repeated_wait_observation": null,
+      "blocker": null,
+      "review_blocked": false,
+      "review_blocker": null,
+      "selftest": {
+        "status": "selftest_passed",
+        "stage": "unknown",
+        "failure_owner": "unknown"
+      },
+      "feedback": {
+        "state": "waiting_platform",
+        "stage": "evaluator_capacity",
+        "scope": "current",
+        "updated_at": 1794041998.2092767,
+        "reason": "正在等待平台执行或评测证据。",
+        "author_must_pause": true
+      },
+      "review_queue_wait": {
+        "elapsed_seconds": 1543
+      },
+      "next_step": "继续推进当前选题，并依据自测和正式评审回执更新状态。"
+    },
+    {
+      "role": "author-18",
+      "task": "meeg-bem-forward",
+      "title": "脑磁脑电边界元正向建模",
+      "summary": "研究脑磁脑电测量的边界元正向计算。",
+      "proposal_summary": "研究脑磁脑电测量的边界元正向计算。",
+      "summary_source": "依据选题标识生成的安全中文概括",
+      "acceptance_followup": {
+        "accepted_versions": [],
+        "current_ideas": [
+          {
+            "idea_id": "author-18-meeg-bem-forward",
+            "title": "脑磁脑电边界元正向建模",
+            "summary": "探索正向模型的计算与验证。",
+            "state": "active",
+            "last_at": 1794039173.2475495
+          }
+        ]
+      },
+      "latest_observed_action": "获取数据或参考资料",
+      "activity": {
+        "code": "downloading",
+        "label": "获取数据（吞吐待下载回执）",
+        "resources": {
+          "cpu_percent": 0.0,
+          "rss_bytes": 13754368,
+          "cpu_seconds": null,
+          "process_count": 2,
+          "descendant_count": null,
+          "processes": null,
+          "rss_mb": null,
+          "cpu_delta_seconds": null,
+          "cpu_active_processes": null,
+          "sample_seconds": 0.202,
+          "stable_process_count": 2,
+          "cpu_seconds_delta": 0,
+          "sleep_processes": 0,
+          "non_wait_processes": 1,
+          "read_bytes_delta": null,
+          "write_bytes_delta": null
+        }
+      },
+      "reviews": [],
+      "runtime": "获取数据（吞吐待下载回执）",
+      "scheduler_state": "running",
+      "stage_label": "题包齐备",
+      "workflow_phase": "题包齐备",
+      "stage": 2,
+      "wait_minutes": 0,
+      "accepted_versions": 0,
+      "started_versions": 0,
+      "recent_tool_results": 77,
+      "model_errors": 1,
+      "latest_action_exit_code": null,
+      "process_live": true,
+      "expected_review_wait": false,
+      "maintenance_hold": null,
+      "session_started": null,
+      "model_activity_observed": null,
+      "latest_action_at": 1794041993.725,
+      "last_activity": 1794041993.725,
+      "phase_started_at": 1794041993.725,
+      "runtime_reason": "运行状态来自本次会话与进程观测。",
+      "long_compute_observation": null,
+      "repeated_wait_observation": null,
+      "blocker": null,
+      "review_blocked": false,
+      "review_blocker": null,
+      "selftest": {
+        "status": "unknown",
+        "stage": "unknown",
+        "failure_owner": "unknown"
+      },
+      "feedback": {
+        "state": "unknown",
+        "stage": "unknown",
+        "scope": "historical_or_unbound",
+        "updated_at": null,
+        "reason": "当前反馈以对应版本的正式评审记录为准。",
+        "author_must_pause": null
+      },
+      "review_queue_wait": null,
+      "next_step": "继续推进当前选题，并依据自测和正式评审回执更新状态。"
+    },
+    {
+      "role": "author-19",
+      "task": "sisal-chronology-audit",
+      "title": "石笋年代学资料审计",
+      "summary": "核查古气候年代学资料的一致性与可追溯性。",
+      "proposal_summary": "核查古气候年代学资料的一致性与可追溯性。",
+      "summary_source": "依据选题标识生成的安全中文概括",
+      "acceptance_followup": {
+        "accepted_versions": [],
+        "current_ideas": [
+          {
+            "idea_id": "sisal-chronology-audit",
+            "title": "石笋年代学资料审计",
+            "summary": "核查古气候年代学资料的一致性与可追溯性。",
+            "state": "session_paused",
+            "last_at": 1794041212.321
+          }
+        ]
+      },
+      "latest_observed_action": "计算或验证题包逻辑",
+      "activity": {
+        "code": "session_ended",
+        "label": "会话已结束",
+        "resources": {
+          "cpu_percent": 0.0,
+          "rss_bytes": 0,
+          "cpu_seconds": null,
+          "process_count": 0,
+          "descendant_count": null,
+          "processes": null,
+          "rss_mb": null,
+          "cpu_delta_seconds": null,
+          "cpu_active_processes": null,
+          "sample_seconds": 0.202,
+          "stable_process_count": 0,
+          "cpu_seconds_delta": 0,
+          "sleep_processes": 0,
+          "non_wait_processes": 0,
+          "read_bytes_delta": null,
+          "write_bytes_delta": null
+        }
+      },
+      "reviews": [
+        {
+          "role": "evaluator-03",
+          "author_role": "author-19",
+          "task": "sisal-chronology-audit",
+          "commit": "b4dc05016818073d56218ad9a5bd1cb7412f7c05",
+          "state": "running",
+          "review_state": "reviewing",
+          "stage": "assignment_read",
+          "started": true,
+          "accepted": false,
+          "reviewer_active": true,
+          "completed_jobs": null,
+          "total_jobs": null,
+          "valid_trials": 0,
+          "selected_job_ids": [
+            "845236804c3a048643301ff3ed42cca2",
+            "9b4e4f4bfbd5662efe76219702c6a02c",
+            "2de8b137603bba3b0e5e4ba53664a119",
+            "dbc1a714ba4805b1e8c93406836393c0",
+            "7439bf68bdfa97187537fb0b2d599082"
+          ]
+        }
+      ],
+      "runtime": "正常等待评审",
+      "scheduler_state": "blocked",
+      "stage_label": "正式验收",
+      "workflow_phase": "evaluator 正在审查轨迹、证据与题目质量",
+      "stage": 4,
+      "wait_minutes": 0,
+      "accepted_versions": 0,
+      "started_versions": 1,
+      "recent_tool_results": 60,
+      "model_errors": 2,
+      "latest_action_exit_code": 0,
+      "process_live": false,
+      "expected_review_wait": true,
+      "maintenance_hold": null,
+      "session_started": null,
+      "model_activity_observed": null,
+      "latest_action_at": 1794041207.523,
+      "last_activity": 1794041212.321,
+      "phase_started_at": null,
+      "runtime_reason": "当前处于评审流程等待，后续以正式裁决为准。",
+      "long_compute_observation": null,
+      "repeated_wait_observation": null,
+      "blocker": null,
+      "review_blocked": false,
+      "review_blocker": null,
+      "selftest": {
+        "status": "selftest_passed",
+        "stage": "unknown",
+        "failure_owner": "unknown"
+      },
+      "feedback": {
+        "state": "reviewing",
+        "stage": "assignment_read",
+        "scope": "current",
+        "updated_at": 1794041998.3062344,
+        "reason": "当前反馈以对应版本的正式评审记录为准。",
+        "author_must_pause": true
+      },
+      "review_queue_wait": null,
+      "next_step": "继续推进当前选题，并依据自测和正式评审回执更新状态。"
+    },
+    {
+      "role": "author-20",
+      "task": "fe-tf-speciation-audit",
+      "title": "铁与转铁蛋白形态分布审计",
+      "summary": "联合核查配体形态分布与吸收光谱分析。",
+      "proposal_summary": "联合核查配体形态分布与吸收光谱分析。",
+      "summary_source": "依据选题标识生成的安全中文概括",
+      "acceptance_followup": {
+        "accepted_versions": [],
+        "current_ideas": [
+          {
+            "idea_id": "fe-tf-speciation-audit",
+            "title": "铁与转铁蛋白形态分布审计",
+            "summary": "联合核查配体形态分布与吸收光谱分析。",
+            "state": "session_paused",
+            "last_at": 1794041015.99
+          }
+        ]
+      },
+      "latest_observed_action": "提交或检查平台自测",
+      "activity": {
+        "code": "session_ended",
+        "label": "会话已结束",
+        "resources": {
+          "cpu_percent": 0.0,
+          "rss_bytes": 0,
+          "cpu_seconds": null,
+          "process_count": 0,
+          "descendant_count": null,
+          "processes": null,
+          "rss_mb": null,
+          "cpu_delta_seconds": null,
+          "cpu_active_processes": null,
+          "sample_seconds": 0.202,
+          "stable_process_count": 0,
+          "cpu_seconds_delta": 0,
+          "sleep_processes": 0,
+          "non_wait_processes": 0,
+          "read_bytes_delta": null,
+          "write_bytes_delta": null
+        }
+      },
+      "reviews": [
+        {
+          "role": "author-20",
+          "author_role": "author-20",
+          "task": "fe-tf-speciation-audit",
+          "commit": "739441f3d0814c34da1b5c253c2d370f228d2d85",
+          "state": "assigned",
+          "review_state": "unknown",
+          "stage": "current_version_registration",
+          "started": false,
+          "accepted": false,
+          "reviewer_active": false,
+          "completed_jobs": null,
+          "total_jobs": null,
+          "valid_trials": 0,
+          "selected_job_ids": []
+        }
+      ],
+      "runtime": "正常等待评审",
+      "scheduler_state": "blocked",
+      "stage_label": "平台自测",
+      "workflow_phase": "自测通过，评审容量排队",
+      "stage": 3,
+      "wait_minutes": 0,
+      "accepted_versions": 0,
+      "started_versions": 0,
+      "recent_tool_results": 58,
+      "model_errors": 1,
+      "latest_action_exit_code": 0,
+      "process_live": false,
+      "expected_review_wait": true,
+      "maintenance_hold": null,
+      "session_started": null,
+      "model_activity_observed": null,
+      "latest_action_at": 1794040709.038,
+      "last_activity": 1794041015.99,
+      "phase_started_at": null,
+      "runtime_reason": "当前处于评审流程等待，后续以正式裁决为准。",
+      "long_compute_observation": null,
+      "repeated_wait_observation": null,
+      "blocker": null,
+      "review_blocked": false,
+      "review_blocker": null,
+      "selftest": {
+        "status": "selftest_passed",
+        "stage": "unknown",
+        "failure_owner": "unknown"
+      },
+      "feedback": {
+        "state": "waiting_platform",
+        "stage": "evaluator_capacity",
+        "scope": "current",
+        "updated_at": 1794041998.2237673,
+        "reason": "正在等待平台执行或评测证据。",
+        "author_must_pause": true
+      },
+      "review_queue_wait": {
+        "elapsed_seconds": 1328
+      },
+      "next_step": "继续推进当前选题，并依据自测和正式评审回执更新状态。"
+    }
+  ],
+  "evaluators": [
+    {
+      "role": "evaluator-01",
+      "runtime": "运行中",
+      "activity": {
+        "code": "intentional_wait",
+        "label": "主动等待（sleep 进程）",
+        "resources": {
+          "cpu_percent": 0.0,
+          "rss_bytes": 4481024,
+          "cpu_seconds": null,
+          "process_count": 2,
+          "descendant_count": null,
+          "processes": null,
+          "rss_mb": null,
+          "cpu_delta_seconds": null,
+          "cpu_active_processes": null,
+          "sample_seconds": 0.202,
+          "stable_process_count": 2,
+          "cpu_seconds_delta": 0,
+          "sleep_processes": 1,
+          "non_wait_processes": 0,
+          "read_bytes_delta": null,
+          "write_bytes_delta": null
+        }
+      },
+      "latest_action": "查看或推进五次独立验收",
+      "latest_action_at": 1794041573.492,
+      "latest_action_exit_code": null,
+      "activity_scope": "当前评审会话与进程聚合观测",
+      "long_compute_observation": null,
+      "assigned": 4,
+      "started": 4,
+      "accepted": 1,
+      "current": 1,
+      "reviews": [
+        {
+          "role": "evaluator-01",
+          "author_role": "author-02",
+          "task": "eeg-erp-recovery",
+          "commit": "e45253be660d9b43620f88727f54cab28231d052",
+          "state": "pass",
+          "review_state": "completed",
+          "stage": "final_review",
+          "started": true,
+          "accepted": true,
+          "reviewer_active": null,
+          "completed_jobs": null,
+          "total_jobs": null,
+          "valid_trials": 5,
+          "selected_job_ids": [
+            "a502d8c385ef00fdfae49598bca2828d",
+            "26dd34cfcee85a8e8dd8bce2a41dadf4",
+            "70cc9371fcd64b3bf7de185820240a4e",
+            "c5ad4a1f9636dc9314c1836badaa64f7",
+            "fc650bc5790274a985bdfc1c1123eab2"
+          ]
+        },
+        {
+          "role": "evaluator-01",
+          "author_role": "author-07",
+          "task": "neo-orbit-determination",
+          "commit": "0b0d781f42eeede3aebe1af96d786812dfcd80ea",
+          "state": "running",
+          "review_state": "waiting_platform",
+          "stage": "five_rollouts",
+          "started": true,
+          "accepted": false,
+          "reviewer_active": false,
+          "completed_jobs": null,
+          "total_jobs": null,
+          "valid_trials": 2,
+          "selected_job_ids": [
+            "dc453c765d0752339b276e8903ea0f4f",
+            "c59aeec05304b58ef853bdf227cd81bf",
+            "5162b5825d91aa1792684e539afd8d98",
+            "ba3f522724c1b36e1e3e69b0436b06c2",
+            "1c1ec0d799f3da1337d79f8411d358d7"
+          ]
+        },
+        {
+          "role": "evaluator-01",
+          "author_role": "author-08",
+          "task": "wrf-lulc-tables",
+          "commit": "2aa692dd5eee91d8ae5ced5493b3b9499a0bee51",
+          "state": "running",
+          "review_state": "reviewing",
+          "stage": "five_rollouts",
+          "started": true,
+          "accepted": false,
+          "reviewer_active": true,
+          "completed_jobs": null,
+          "total_jobs": null,
+          "valid_trials": 1,
+          "selected_job_ids": [
+            "3cd1065933b7e21173f393f5e7018c38",
+            "d62ec6e3ae0dedc3072a5aef538b400e",
+            "6722c52c1969c318d05f9397703657c4",
+            "ed60b22f9e7bbad50b31d7d853b6cd8d",
+            "556685f98ad254bd5db8a8f11d6a7595"
+          ]
+        },
+        {
+          "role": "evaluator-01",
+          "author_role": "author-12",
+          "task": "bryomin-skeletal-mineralogy",
+          "commit": "611e6eb1f05197548b28ccadc4f15ff55eae53cd",
+          "state": "evidence_collected",
+          "review_state": "waiting_platform",
+          "stage": "five_rollouts",
+          "started": true,
+          "accepted": false,
+          "reviewer_active": false,
+          "completed_jobs": null,
+          "total_jobs": null,
+          "valid_trials": 5,
+          "selected_job_ids": [
+            "74820e1adc575342d7023a8c99a3ad70",
+            "522bf6cf75625dea2d049481795cae0f",
+            "45fc205bd13b3c33a57db98c09949a1f",
+            "9bc9b2551d020ced962b44b2783eff36",
+            "44cb308521f767045bcd46c74152491f"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "evaluator-02",
+      "runtime": "运行中",
+      "activity": {
+        "code": "downloading",
+        "label": "获取数据（吞吐待下载回执）",
+        "resources": {
+          "cpu_percent": 0.0,
+          "rss_bytes": 18939904,
+          "cpu_seconds": null,
+          "process_count": 2,
+          "descendant_count": null,
+          "processes": null,
+          "rss_mb": null,
+          "cpu_delta_seconds": null,
+          "cpu_active_processes": null,
+          "sample_seconds": 0.202,
+          "stable_process_count": 2,
+          "cpu_seconds_delta": 0,
+          "sleep_processes": 0,
+          "non_wait_processes": 1,
+          "read_bytes_delta": null,
+          "write_bytes_delta": null
+        }
+      },
+      "latest_action": "获取数据或参考资料",
+      "latest_action_at": 1794040854.015,
+      "latest_action_exit_code": null,
+      "activity_scope": "当前评审会话与进程聚合观测",
+      "long_compute_observation": null,
+      "assigned": 2,
+      "started": 2,
+      "accepted": 0,
+      "current": 1,
+      "reviews": [
+        {
+          "role": "evaluator-02",
+          "author_role": "author-05",
+          "task": "spikein-titration-h3k9ac",
+          "commit": "c2148bc39710397707f8e86abe56f4c95715c442",
+          "state": "evidence_collected",
+          "review_state": "reviewing",
+          "stage": "assignment_read",
+          "started": true,
+          "accepted": false,
+          "reviewer_active": true,
+          "completed_jobs": null,
+          "total_jobs": null,
+          "valid_trials": 5,
+          "selected_job_ids": [
+            "4581ebcdd6ab26341d4abbe997af9f7f",
+            "93dff66cf3c8fddd38fdb79823075d2d",
+            "4f814e0ffcc74eb064fe402585860915",
+            "f2351ee652e64a9f0ba6a8c438067a70",
+            "88195a97781be5c6219d17b7c2aeaf01"
+          ]
+        },
+        {
+          "role": "evaluator-02",
+          "author_role": "author-13",
+          "task": "cms-muon-qa",
+          "commit": "b3c8ead9275d683fd0d168b6a0f9ff3df20bc55b",
+          "state": "task_fail",
+          "review_state": "completed",
+          "stage": "final_review",
+          "started": true,
+          "accepted": false,
+          "reviewer_active": null,
+          "completed_jobs": null,
+          "total_jobs": null,
+          "valid_trials": 5,
+          "selected_job_ids": [
+            "ba95e93b87ca7777aa3f6c1ea10747c6",
+            "20a2e249e64853d8f2ee3c32449e0395",
+            "4d905a1520722f8c512928fdfdac6fa3",
+            "39de5f3632143e09ca59b0f87c5ff428",
+            "602814e5d68a9e1532db4a5691892166"
+          ]
+        }
+      ]
+    },
+    {
+      "role": "evaluator-03",
+      "runtime": "运行中",
+      "activity": {
+        "code": "intentional_wait",
+        "label": "主动等待（sleep 进程）",
+        "resources": {
+          "cpu_percent": 0.0,
+          "rss_bytes": 4313088,
+          "cpu_seconds": null,
+          "process_count": 2,
+          "descendant_count": null,
+          "processes": null,
+          "rss_mb": null,
+          "cpu_delta_seconds": null,
+          "cpu_active_processes": null,
+          "sample_seconds": 0.202,
+          "stable_process_count": 2,
+          "cpu_seconds_delta": 0,
+          "sleep_processes": 1,
+          "non_wait_processes": 0,
+          "read_bytes_delta": null,
+          "write_bytes_delta": null
+        }
+      },
+      "latest_action": "查看或推进五次独立验收",
+      "latest_action_at": 1794041902.92,
+      "latest_action_exit_code": null,
+      "activity_scope": "当前评审会话与进程聚合观测",
+      "long_compute_observation": null,
+      "assigned": 4,
+      "started": 4,
+      "accepted": 0,
+      "current": 1,
+      "reviews": [
+        {
+          "role": "evaluator-03",
+          "author_role": "author-04",
+          "task": "cubic-axial-anisotropy",
+          "commit": "96b8d61a9a1ee64c35d3e25068c14552d1b97ce7",
+          "state": "task_fail",
+          "review_state": "waiting_author",
+          "stage": "unknown",
+          "started": true,
+          "accepted": false,
+          "reviewer_active": false,
+          "completed_jobs": null,
+          "total_jobs": null,
+          "valid_trials": 0,
+          "selected_job_ids": [
+            "9a7ebe48b012147ea76bc5cc4e71ed4f",
+            "5b034f4d99a2a703867cbca26fa5177d",
+            "667253ae0013c41ac8f709cc2624877b",
+            "006761af4c9e9d625686d13e3a98d0ee",
+            "5ce99f0d7fc71f70af9f6eef19b25dc6"
+          ]
+        },
+        {
+          "role": "evaluator-03",
+          "author_role": "author-11",
+          "task": "crossref-relation-audit",
+          "commit": "1ea5a90092eceb3b46822d94f02ec0746c85ac5f",
+          "state": "evidence_collected",
+          "review_state": "waiting_platform",
+          "stage": "five_rollouts",
+          "started": true,
+          "accepted": false,
+          "reviewer_active": false,
+          "completed_jobs": null,
+          "total_jobs": null,
+          "valid_trials": 5,
+          "selected_job_ids": [
+            "aaca1721b8f968d22f5c14b51b36a1c6",
+            "3504f928f696dae80fbcaae6516dd8ae",
+            "db0c9ef5f96485559083861cb356fdd3",
+            "f6afebb72fe47f8ca1231bd330099d7d",
+            "e9a15a1d08544374dda27189c641046d"
+          ]
+        },
+        {
+          "role": "evaluator-03",
+          "author_role": "author-17",
+          "task": "amplicon-structure-audit",
+          "commit": "27fcc98920cf3a202b8ea5ae7a1a90e03f0da169",
+          "state": "platform_invalid",
+          "review_state": "waiting_platform",
+          "stage": "evaluator_lease_recovery",
+          "started": true,
+          "accepted": false,
+          "reviewer_active": null,
+          "completed_jobs": null,
+          "total_jobs": null,
+          "valid_trials": 5,
+          "selected_job_ids": [
+            "0be6e23c5fb84775d26add8bef7112fe",
+            "1a5d521d07fb6a9df4ffe27713f2bf64",
+            "799f9cf880b4abeeac319717a7e1fb31",
+            "08f9e0f0804f3c8428fa801f1ee95225",
+            "7c97a1b78fd1da163d16aff99f4c9473"
+          ]
+        },
+        {
+          "role": "evaluator-03",
+          "author_role": "author-19",
+          "task": "sisal-chronology-audit",
+          "commit": "b4dc05016818073d56218ad9a5bd1cb7412f7c05",
+          "state": "running",
+          "review_state": "reviewing",
+          "stage": "assignment_read",
+          "started": true,
+          "accepted": false,
+          "reviewer_active": true,
+          "completed_jobs": null,
+          "total_jobs": null,
+          "valid_trials": 0,
+          "selected_job_ids": [
+            "845236804c3a048643301ff3ed42cca2",
+            "9b4e4f4bfbd5662efe76219702c6a02c",
+            "2de8b137603bba3b0e5e4ba53664a119",
+            "dbc1a714ba4805b1e8c93406836393c0",
+            "7439bf68bdfa97187537fb0b2d599082"
+          ]
+        }
+      ]
+    }
+  ],
+  "metrics": {
+    "assigned_versions": 20,
+    "history_versions": 30,
+    "started_versions": 10,
+    "cumulative_accepted_versions": 2,
+    "cumulative_accepted_tasks": 2,
+    "started_tasks": 10,
+    "accepted_versions": 1,
+    "accepted_tasks": 1,
+    "reviewing_versions": 3,
+    "completed_reviews": 2,
+    "authors": 20,
+    "running_authors": 6,
+    "long_wait_authors": 0,
+    "blocked_authors": 0,
+    "retrying_authors": 0,
+    "selftest_pending": 0,
+    "selftest_active": 2,
+    "selftest_receipts": 89,
+    "cross_universe_archived_versions": 2,
+    "pull_requests": 11,
+    "review_states": {
+      "assigned": 10,
+      "pass": 1,
+      "task_fail": 2,
+      "evidence_collected": 3,
+      "running": 3,
+      "platform_invalid": 1
+    },
+    "review_blocked_versions": 0,
+    "review_blocked_authors": 0
+  },
+  "capacity_detail": {
+    "selftest_workers": 20,
+    "selftest_worker_maximum": 30,
+    "per_author_selftest_limit": 1,
+    "builder_slots": 8,
+    "evaluator_parallel": 50,
+    "queue_pending": 0,
+    "queue_active": 2,
+    "evaluator_dispatch_paused": false,
+    "reviewer_capacity": {
+      "configured_roles": 3,
+      "observed_active_sessions": 3,
+      "queued_selected_versions": 8,
+      "oldest_queue_wait_seconds": 1543,
+      "complete_batches_waiting_review": 2
+    },
+    "evaluation_workers": {
+      "active": 12,
+      "current_selection_active": 12,
+      "other_retained_active": 0,
+      "unreadable_claims": 0
+    }
+  },
+  "runtime_overview": {
+    "controller_live": true,
+    "launcher_live": true,
+    "forgejo_live": true,
+    "controller_pid_present": true,
+    "execution_backend": "acs",
+    "selftest_backend": "acs",
+    "verifier_network": "public"
+  },
+  "startup": {
+    "controller_live": true,
+    "author_sessions_observed": 20,
+    "author_model_activity_observed": 20,
+    "configured_authors": 20,
+    "state": "authors_started"
+  },
+  "disk_detail": {
+    "minimum_free_bytes": 26816176128,
+    "backup_remaining_files": 161705,
+    "live_available_gib": 549.45,
+    "live_available_percent": 54.53,
+    "live_total_gib": null,
+    "live_available_bytes": 589970980864,
+    "live_capacity_bytes": 1081873436672,
+    "ready": true,
+    "low_headroom": false,
+    "backup_last_success_at": null,
+    "live_observed_at": 1794042002.2503874,
+    "backup_status": "partial"
+  },
+  "issues": [
+    {
+      "level": "observed",
+      "title": "模型调用出现重试或失败",
+      "detail": "按当前运行观测持续核查，正式评审结果独立统计。"
+    }
+  ],
+  "remediation": {
+    "total": 9,
+    "verified": 7,
+    "reviewed_at": 1794040042.7467523,
+    "next_review_due_at": 1794047242.7467523,
+    "source_reviewed_at": 1794040042.7467523,
+    "restore_verified": false,
+    "remaining": [
+      {
+        "id": "remediation-1",
+        "status": "observing",
+        "gap": "持续巡检运行稳定性、有效计算与问题修复效果。"
+      },
+      {
+        "id": "remediation-2",
+        "status": "observing",
+        "gap": "独立备份完整性与恢复验证仍需核验。"
+      }
+    ],
+    "open_items": [
+      "持续巡检运行稳定性、有效计算与问题修复效果。",
+      "独立备份完整性与恢复验证仍需核验。"
+    ],
+    "scope": "工程修复验收与科学题目正式接受分别统计。"
+  },
+  "expansion_progress": {
+    "bugs": [
+      {
+        "id": "R2-001",
+        "summary": "已建立独立运行环境并完成报告来源切换。",
+        "status": "已记录进展，持续核验",
+        "source": "运维记录的公开概括"
+      },
+      {
+        "id": "R2-002",
+        "summary": "已完成空间回收与容量预检，持续监测存储余量。",
+        "status": "已记录进展，持续核验",
+        "source": "运维记录的公开概括"
+      },
+      {
+        "id": "R2-003",
+        "summary": "作者工作区已恢复，模型与工具活动已出现。",
+        "status": "已记录进展，持续核验",
+        "source": "运维记录的公开概括"
+      },
+      {
+        "id": "R2-004",
+        "summary": "独立备份目标与启动配置已调整，完整性以当前备份回执为准。",
+        "status": "已记录进展，持续核验",
+        "source": "运维记录的公开概括"
+      },
+      {
+        "id": "R2-005",
+        "summary": "启动统计改为依据真实会话事件，并区分失败与重试。",
+        "status": "已记录进展，持续核验",
+        "source": "运维记录的公开概括"
+      },
+      {
+        "id": "R2-006",
+        "summary": "初始化权限时序已修复，持续观察启动稳定性。",
+        "status": "已记录进展，持续核验",
+        "source": "运维记录的公开概括"
+      },
+      {
+        "id": "R2-007",
+        "summary": "科学计算并发已调整，各类执行容量独立统计。",
+        "status": "已记录进展，持续核验",
+        "source": "运维记录的公开概括"
+      },
+      {
+        "id": "R2-008",
+        "summary": "自测版本身份与评审交接关联已修复，避免重复执行和错误拒绝。",
+        "status": "已记录进展，持续核验",
+        "source": "运维记录的公开概括"
+      },
+      {
+        "id": "R2-009",
+        "summary": "逐版本评审反馈已持久交付，持续确认作者阅读与后续修改。",
+        "status": "已记录进展，持续核验",
+        "source": "运维记录的公开概括"
+      },
+      {
+        "id": "R2-010",
+        "summary": "历史数据已按授权清理，共享环境已迁移，持续观察空间。",
+        "status": "已记录进展，持续核验",
+        "source": "运维记录的公开概括"
+      },
+      {
+        "id": "R2-011",
+        "summary": "已恢复有效计算并增加无效等待识别，计算效率与产出继续观察。",
+        "status": "已记录进展，持续核验",
+        "source": "运维记录的公开概括"
+      },
+      {
+        "id": "R2-012",
+        "summary": "版本库远端配置恢复已修复，自动防复发效果待后续启动验证。",
+        "status": "已记录进展，持续核验",
+        "source": "运维记录的公开概括"
+      },
+      {
+        "id": "R2-013",
+        "summary": "备份库存与临时文件处理已修复，完整性及恢复能力继续核验。",
+        "status": "已记录进展，持续核验",
+        "source": "运维记录的公开概括"
+      },
+      {
+        "id": "R2-014",
+        "summary": "评审容量与排队时长已可观测，持续比较吞吐与积压。",
+        "status": "已记录进展，持续核验",
+        "source": "运维记录的公开概括"
+      },
+      {
+        "id": "R2-015",
+        "summary": "长计算已增加有界执行与中间状态恢复，持续检查真实产出。",
+        "status": "已记录进展，持续核验",
+        "source": "运维记录的公开概括"
+      },
+      {
+        "id": "R2-016",
+        "summary": "已退役历史订阅并保留独立归档。",
+        "status": "已记录进展，持续核验",
+        "source": "运维记录的公开概括"
+      },
+      {
+        "id": "R2-017",
+        "summary": "接受后经验贴与归档附件已补录，备份状态以最新回执为准。",
+        "status": "已记录进展，持续核验",
+        "source": "运维记录的公开概括"
+      },
+      {
+        "id": "R2-018",
+        "summary": "已修复接受后复盘被后续评测等待阻止的问题。",
+        "status": "已记录进展，持续核验",
+        "source": "运维记录的公开概括"
+      },
+      {
+        "id": "R2-019",
+        "summary": "历史报告交付重试已完成；当前报告渠道已切换为静态网站。",
+        "status": "已记录进展，持续核验",
+        "source": "运维记录的公开概括"
+      },
+      {
+        "id": "R2-020",
+        "summary": "已完成独立科学质量审计，发现验证边界与合理输出形式需要进一步核查；未改变正式裁决。",
+        "status": "已记录进展，持续核验",
+        "source": "运维记录的公开概括"
+      },
+      {
+        "id": "R2-021",
+        "summary": "正式接受版本、经验贴与独立归档已完成一致性核验，继续跟踪备份回执。",
+        "status": "已记录进展，持续核验",
+        "source": "运维记录的公开概括"
+      },
+      {
+        "id": "R2-022",
+        "summary": "已区分当前版本接受数量与累计正式接受数量。",
+        "status": "已记录进展，持续核验",
+        "source": "运维记录的公开概括"
+      },
+      {
+        "id": "R2-023",
+        "summary": "已恢复评审中的有效计算，补充有界分析要求，继续确认评审推进。",
+        "status": "已记录进展，持续核验",
+        "source": "运维记录的公开概括"
+      },
+      {
+        "id": "R2-024",
+        "summary": "已增加接受后经验贴编号、当前活动选题与逐作者状态。",
+        "status": "已记录进展，持续核验",
+        "source": "运维记录的公开概括"
+      },
+      {
+        "id": "R2-025",
+        "summary": "已补充独立归因、题面条件核对与审核收束指引，后续行为效果仍待验收。",
+        "status": "已记录进展，持续核验",
+        "source": "运维记录的公开概括"
+      },
+      {
+        "id": "R2-026",
+        "summary": "已增加评审员当前会话动作、资源聚合与长计算提醒，持续核查审题容量是否被低效命令占用。",
+        "status": "已记录进展，持续核验",
+        "source": "运维记录的公开概括"
+      },
+      {
+        "id": "R2-027",
+        "summary": "报告渠道由飞书切换为本地静态网站，按固定半小时槽维护公开快照与历史。",
+        "status": "已记录进展，持续核验",
+        "source": "运维记录的公开概括"
+      },
+      {
+        "id": "R2-028",
+        "summary": "活动角色已验证最大推理配置；新评测入口及未开跑批次已切换，实际新批次执行继续取证。",
+        "status": "已记录进展，持续核验",
+        "source": "运维记录的公开概括"
+      },
+      {
+        "id": "R2-029",
+        "summary": "已部署模型空值响应的有限重试；作者已转新题，旧评审证据保留且未改历史裁决。",
+        "status": "已记录进展，持续核验",
+        "source": "运维记录的公开概括"
+      },
+      {
+        "id": "R2-030",
+        "summary": "作者09已自然接单，登记新的同位素定年选题、形成提案并通过平台自测，继续推进正式评审。",
+        "status": "已记录进展，持续核验",
+        "source": "运维记录的公开概括"
+      },
+      {
+        "id": "R2-031",
+        "summary": "已修复网站遗漏评审中断状态与排队分钟数，测试通过并保持固定半小时发布。",
+        "status": "已记录进展，持续核验",
+        "source": "运维记录的公开概括"
+      },
+      {
+        "id": "R2-032",
+        "summary": "发现作者10缺少内部启动任务，已补齐明确派单；保留已有研究，继续跟踪自然接单与提案产出。",
+        "status": "已记录进展，持续核验",
+        "source": "运维记录的公开概括"
+      }
+    ],
+    "expansion": {}
+  },
+  "curator": {
+    "role": "curator",
+    "runtime": "运行中"
+  },
+  "reviews": [
+    {
+      "role": "author-01",
+      "author_role": "author-01",
+      "task": "fermi-lat-sed",
+      "commit": "91cba8edd333",
+      "state": "assigned",
+      "review_state": "unknown",
+      "stage": "current_version_registration",
+      "started": false,
+      "accepted": false,
+      "reviewer_active": null,
+      "completed_jobs": null,
+      "total_jobs": null,
+      "valid_trials": 0,
+      "selected_job_ids": []
+    },
+    {
+      "role": "evaluator-01",
+      "author_role": "author-02",
+      "task": "eeg-erp-recovery",
+      "commit": "e45253be660d",
+      "state": "pass",
+      "review_state": "completed",
+      "stage": "final_review",
+      "started": true,
+      "accepted": true,
+      "reviewer_active": null,
+      "completed_jobs": null,
+      "total_jobs": null,
+      "valid_trials": 5,
+      "selected_job_ids": [
+        "a502d8c385ef00fdfae49598bca2828d",
+        "26dd34cfcee85a8e8dd8bce2a41dadf4",
+        "70cc9371fcd64b3bf7de185820240a4e",
+        "c5ad4a1f9636dc9314c1836badaa64f7",
+        "fc650bc5790274a985bdfc1c1123eab2"
+      ]
+    },
+    {
+      "role": "author-02",
+      "author_role": "author-02",
+      "task": "tidal-constituent-recovery",
+      "commit": "0a3825107a33",
+      "state": "assigned",
+      "review_state": "unknown",
+      "stage": "current_version_registration",
+      "started": false,
+      "accepted": false,
+      "reviewer_active": null,
+      "completed_jobs": null,
+      "total_jobs": null,
+      "valid_trials": 0,
+      "selected_job_ids": []
+    },
+    {
+      "role": "evaluator-03",
+      "author_role": "author-04",
+      "task": "cubic-axial-anisotropy",
+      "commit": "96b8d61a9a1e",
+      "state": "task_fail",
+      "review_state": "waiting_author",
+      "stage": "unknown",
+      "started": true,
+      "accepted": false,
+      "reviewer_active": null,
+      "completed_jobs": null,
+      "total_jobs": null,
+      "valid_trials": 0,
+      "selected_job_ids": [
+        "9a7ebe48b012147ea76bc5cc4e71ed4f",
+        "5b034f4d99a2a703867cbca26fa5177d",
+        "667253ae0013c41ac8f709cc2624877b",
+        "006761af4c9e9d625686d13e3a98d0ee",
+        "5ce99f0d7fc71f70af9f6eef19b25dc6"
+      ]
+    },
+    {
+      "role": "evaluator-02",
+      "author_role": "author-05",
+      "task": "spikein-titration-h3k9ac",
+      "commit": "c2148bc39710",
+      "state": "evidence_collected",
+      "review_state": "reviewing",
+      "stage": "assignment_read",
+      "started": true,
+      "accepted": false,
+      "reviewer_active": null,
+      "completed_jobs": null,
+      "total_jobs": null,
+      "valid_trials": 5,
+      "selected_job_ids": [
+        "4581ebcdd6ab26341d4abbe997af9f7f",
+        "93dff66cf3c8fddd38fdb79823075d2d",
+        "4f814e0ffcc74eb064fe402585860915",
+        "f2351ee652e64a9f0ba6a8c438067a70",
+        "88195a97781be5c6219d17b7c2aeaf01"
+      ]
+    },
+    {
+      "role": "author-06",
+      "author_role": "author-06",
+      "task": "hbv-split-sample",
+      "commit": "cb57d70ef191",
+      "state": "assigned",
+      "review_state": "unknown",
+      "stage": "current_version_registration",
+      "started": false,
+      "accepted": false,
+      "reviewer_active": null,
+      "completed_jobs": null,
+      "total_jobs": null,
+      "valid_trials": 0,
+      "selected_job_ids": []
+    },
+    {
+      "role": "evaluator-01",
+      "author_role": "author-07",
+      "task": "neo-orbit-determination",
+      "commit": "0b0d781f42ee",
+      "state": "running",
+      "review_state": "waiting_platform",
+      "stage": "five_rollouts",
+      "started": true,
+      "accepted": false,
+      "reviewer_active": null,
+      "completed_jobs": null,
+      "total_jobs": null,
+      "valid_trials": 2,
+      "selected_job_ids": [
+        "dc453c765d0752339b276e8903ea0f4f",
+        "c59aeec05304b58ef853bdf227cd81bf",
+        "5162b5825d91aa1792684e539afd8d98",
+        "ba3f522724c1b36e1e3e69b0436b06c2",
+        "1c1ec0d799f3da1337d79f8411d358d7"
+      ]
+    },
+    {
+      "role": "evaluator-01",
+      "author_role": "author-08",
+      "task": "wrf-lulc-tables",
+      "commit": "2aa692dd5eee",
+      "state": "running",
+      "review_state": "reviewing",
+      "stage": "five_rollouts",
+      "started": true,
+      "accepted": false,
+      "reviewer_active": null,
+      "completed_jobs": null,
+      "total_jobs": null,
+      "valid_trials": 1,
+      "selected_job_ids": [
+        "3cd1065933b7e21173f393f5e7018c38",
+        "d62ec6e3ae0dedc3072a5aef538b400e",
+        "6722c52c1969c318d05f9397703657c4",
+        "ed60b22f9e7bbad50b31d7d853b6cd8d",
+        "556685f98ad254bd5db8a8f11d6a7595"
+      ]
+    },
+    {
+      "role": "author-09",
+      "author_role": "author-09",
+      "task": "codex-rbsr-isochron",
+      "commit": "3f957dd669ad",
+      "state": "assigned",
+      "review_state": "unknown",
+      "stage": "current_version_registration",
+      "started": false,
+      "accepted": false,
+      "reviewer_active": null,
+      "completed_jobs": null,
+      "total_jobs": null,
+      "valid_trials": 0,
+      "selected_job_ids": []
+    },
+    {
+      "role": "evaluator-03",
+      "author_role": "author-11",
+      "task": "crossref-relation-audit",
+      "commit": "1ea5a90092ec",
+      "state": "evidence_collected",
+      "review_state": "waiting_platform",
+      "stage": "five_rollouts",
+      "started": true,
+      "accepted": false,
+      "reviewer_active": null,
+      "completed_jobs": null,
+      "total_jobs": null,
+      "valid_trials": 5,
+      "selected_job_ids": [
+        "aaca1721b8f968d22f5c14b51b36a1c6",
+        "3504f928f696dae80fbcaae6516dd8ae",
+        "db0c9ef5f96485559083861cb356fdd3",
+        "f6afebb72fe47f8ca1231bd330099d7d",
+        "e9a15a1d08544374dda27189c641046d"
+      ]
+    },
+    {
+      "role": "evaluator-01",
+      "author_role": "author-12",
+      "task": "bryomin-skeletal-mineralogy",
+      "commit": "611e6eb1f051",
+      "state": "evidence_collected",
+      "review_state": "waiting_platform",
+      "stage": "five_rollouts",
+      "started": true,
+      "accepted": false,
+      "reviewer_active": null,
+      "completed_jobs": null,
+      "total_jobs": null,
+      "valid_trials": 5,
+      "selected_job_ids": [
+        "74820e1adc575342d7023a8c99a3ad70",
+        "522bf6cf75625dea2d049481795cae0f",
+        "45fc205bd13b3c33a57db98c09949a1f",
+        "9bc9b2551d020ced962b44b2783eff36",
+        "44cb308521f767045bcd46c74152491f"
+      ]
+    },
+    {
+      "role": "evaluator-02",
+      "author_role": "author-13",
+      "task": "cms-muon-qa",
+      "commit": "b3c8ead9275d",
+      "state": "task_fail",
+      "review_state": "completed",
+      "stage": "final_review",
+      "started": true,
+      "accepted": false,
+      "reviewer_active": null,
+      "completed_jobs": null,
+      "total_jobs": null,
+      "valid_trials": 5,
+      "selected_job_ids": [
+        "ba95e93b87ca7777aa3f6c1ea10747c6",
+        "20a2e249e64853d8f2ee3c32449e0395",
+        "4d905a1520722f8c512928fdfdac6fa3",
+        "39de5f3632143e09ca59b0f87c5ff428",
+        "602814e5d68a9e1532db4a5691892166"
+      ]
+    },
+    {
+      "role": "author-13",
+      "author_role": "author-13",
+      "task": "ghcn-extremes-audit",
+      "commit": "782c4c8b7f75",
+      "state": "assigned",
+      "review_state": "unknown",
+      "stage": "current_version_registration",
+      "started": false,
+      "accepted": false,
+      "reviewer_active": null,
+      "completed_jobs": null,
+      "total_jobs": null,
+      "valid_trials": 0,
+      "selected_job_ids": []
+    },
+    {
+      "role": "author-14",
+      "author_role": "author-14",
+      "task": "swarm-dst-baseline",
+      "commit": "8e27d18b2354",
+      "state": "assigned",
+      "review_state": "unknown",
+      "stage": "current_version_registration",
+      "started": false,
+      "accepted": false,
+      "reviewer_active": null,
+      "completed_jobs": null,
+      "total_jobs": null,
+      "valid_trials": 0,
+      "selected_job_ids": []
+    },
+    {
+      "role": "author-15",
+      "author_role": "author-15",
+      "task": "tidal-datum-transfer",
+      "commit": "1fd11b9af7b6",
+      "state": "assigned",
+      "review_state": "unknown",
+      "stage": "current_version_registration",
+      "started": false,
+      "accepted": false,
+      "reviewer_active": null,
+      "completed_jobs": null,
+      "total_jobs": null,
+      "valid_trials": 0,
+      "selected_job_ids": []
+    },
+    {
+      "role": "author-16",
+      "author_role": "author-16",
+      "task": "gistemp-land-reconstruction",
+      "commit": "ab04e83880b8",
+      "state": "assigned",
+      "review_state": "unknown",
+      "stage": "current_version_registration",
+      "started": false,
+      "accepted": false,
+      "reviewer_active": null,
+      "completed_jobs": null,
+      "total_jobs": null,
+      "valid_trials": 0,
+      "selected_job_ids": []
+    },
+    {
+      "role": "evaluator-03",
+      "author_role": "author-17",
+      "task": "amplicon-structure-audit",
+      "commit": "27fcc98920cf",
+      "state": "platform_invalid",
+      "review_state": "waiting_platform",
+      "stage": "evaluator_lease_recovery",
+      "started": true,
+      "accepted": false,
+      "reviewer_active": null,
+      "completed_jobs": null,
+      "total_jobs": null,
+      "valid_trials": 5,
+      "selected_job_ids": [
+        "0be6e23c5fb84775d26add8bef7112fe",
+        "1a5d521d07fb6a9df4ffe27713f2bf64",
+        "799f9cf880b4abeeac319717a7e1fb31",
+        "08f9e0f0804f3c8428fa801f1ee95225",
+        "7c97a1b78fd1da163d16aff99f4c9473"
+      ]
+    },
+    {
+      "role": "author-17",
+      "author_role": "author-17",
+      "task": "tide-residual-audit",
+      "commit": "c383f89d61cf",
+      "state": "assigned",
+      "review_state": "unknown",
+      "stage": "current_version_registration",
+      "started": false,
+      "accepted": false,
+      "reviewer_active": null,
+      "completed_jobs": null,
+      "total_jobs": null,
+      "valid_trials": 0,
+      "selected_job_ids": []
+    },
+    {
+      "role": "evaluator-03",
+      "author_role": "author-19",
+      "task": "sisal-chronology-audit",
+      "commit": "b4dc05016818",
+      "state": "running",
+      "review_state": "reviewing",
+      "stage": "assignment_read",
+      "started": true,
+      "accepted": false,
+      "reviewer_active": null,
+      "completed_jobs": null,
+      "total_jobs": null,
+      "valid_trials": 0,
+      "selected_job_ids": [
+        "845236804c3a048643301ff3ed42cca2",
+        "9b4e4f4bfbd5662efe76219702c6a02c",
+        "2de8b137603bba3b0e5e4ba53664a119",
+        "dbc1a714ba4805b1e8c93406836393c0",
+        "7439bf68bdfa97187537fb0b2d599082"
+      ]
+    },
+    {
+      "role": "author-20",
+      "author_role": "author-20",
+      "task": "fe-tf-speciation-audit",
+      "commit": "739441f3d081",
+      "state": "assigned",
+      "review_state": "unknown",
+      "stage": "current_version_registration",
+      "started": false,
+      "accepted": false,
+      "reviewer_active": null,
+      "completed_jobs": null,
+      "total_jobs": null,
+      "valid_trials": 0,
+      "selected_job_ids": []
+    }
+  ],
+  "publication": {
+    "slot": 1794042000,
+    "lag_seconds": 2.270214080810547,
+    "source_age_seconds": 2.172746181488037,
+    "period_seconds": 1800
+  },
+  "measurement_note": "本页仅公开运行统计、概括选题、操作类型及接受后经验贴编号；独立审计细节与正式裁决分别管理。"
+}
