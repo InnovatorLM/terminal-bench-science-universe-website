@@ -1,0 +1,14 @@
+{
+  "state": "ok",
+  "last_attempt_slot": 1794040200,
+  "last_attempt_at": 1794040200.0000832,
+  "error_class": null,
+  "checked_at": 1794041043.1898627,
+  "period_seconds": 1800,
+  "next_report_at": 1794042000,
+  "stale": false,
+  "lag_seconds": 0,
+  "last_success_at": 1794040203.078139,
+  "last_success_slot": 1794040200,
+  "last_snapshot_id": "20261107-163000"
+}
